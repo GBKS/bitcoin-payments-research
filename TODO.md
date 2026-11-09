@@ -1,6 +1,6 @@
 # To do
 
-*Open work on this research library. Items marked **help wanted** are good places for others to contribute. Last updated November 8, 2026.*
+*Open work on this research library. Items marked **help wanted** are good places for others to contribute. Last updated November 9, 2026.*
 
 ## Research
 
@@ -34,6 +34,9 @@
 
 - [ ] K-pop album sales figures in area 11 (Circle Chart, KPIA originals).
 - [ ] Open USD's launch date (area 3).
+- [ ] Second / Bark and Arkade as the two main Ark implementations, and CoinOS running its own Ark servers (Landscape).
+- [ ] Whether Second has announced stablecoin plans for Bark (areas 3 and 14).
+- [ ] Paysable and KFriday: what they build for group order managers, with sources (area 11).
 - [ ] Which bitcoin layers support dollar tokens: Spark, Liquid, RGB (area 3).
 - [ ] Trails Coffee and BitTasker details (area 12; sites couldn't be opened). **Help wanted.**
 - [ ] Current volumes for Nostr zaps and value-for-value podcasting (area 16). **Help wanted.**

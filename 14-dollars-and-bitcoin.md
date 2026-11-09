@@ -1,6 +1,6 @@
 # Dollars and bitcoin
 
-*Quick scan. Confidence: medium on the market, low on merchants' reasons. Last updated November 8, 2026.*
+*Quick scan. Confidence: medium on the market, low on merchants' reasons. Last updated November 9, 2026.*
 
 ## The question
 
@@ -18,7 +18,7 @@ Stablecoins are winning payments. Bitcoin builders hear it from merchants direct
 **Dollars are arriving on bitcoin rails.**
 
 - **Lightning:** Tether announced USDT on bitcoin and Lightning through Taproot Assets in January 2025 ([The Block](https://www.theblock.co/post/338109/tethers-usdt-stablecoin-returns-to-bitcoin-with-lightning-labs-partnership)). It went live in March 2026, but the ecosystem is "still nascent," mostly LND-based, with early adoption through Speed Wallet and LnFi and no published volumes ([Spark research](https://spark.money/research/lightning-network-2026-state)).
-- **Ark:** Tether backed Ark Labs' $5.2 million seed round in March 2026 to expand stablecoin support on Arkade, the other main Ark implementation ([The Block](https://www.theblock.co/post/393198/tether-backs-ark-labs-5-2-million-seed-raise-to-expand-stablecoin-and-programmable-finance-infrastructure-on-bitcoin)). Second hasn't announced plans for stablecoins in Bark.
+- **Ark:** Tether backed Ark Labs' $5.2 million seed round in March 2026 to expand stablecoin support on Arkade, the other main Ark implementation ([The Block](https://www.theblock.co/post/393198/tether-backs-ark-labs-5-2-million-seed-raise-to-expand-stablecoin-and-programmable-finance-infrastructure-on-bitcoin)). Second hasn't announced plans for stablecoins in Bark. *[to verify]*
 - **Bitcoin wallets with a dollar balance:** Blink offers a Dollar Balance, custodial through Stablesats or non-custodial with supported stablecoins ([Blink](https://blink.sv/en/dollar-balance)). *[to verify: Breez SDK's "stable balance" and Wallet of Satoshi's stablecoin plans]*
 
 **Say versus do:** merchants *say* "support USDT." What they *do* is settle in USDT on Tron, mostly through payment companies, without caring much about the chain. That suggests they want *stable dollars their counterparties already use*, not USDT as such. Nobody has asked them directly what would make them accept something else.

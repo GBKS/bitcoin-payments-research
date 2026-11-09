@@ -1,6 +1,6 @@
 # Community-driven economies
 
-*Deep dive, first draft. Last updated November 8, 2026.*
+*Deep dive, first draft. Last updated November 9, 2026.*
 
 ## Thesis
 
@@ -55,7 +55,7 @@ For scale, the official Circle Chart count was 98.4 million K-pop albums sold in
 
 - **How they work:** international fans pool album and merchandise purchases into one bulk order run by a group order manager. Joiners pay in stages: the item, then international shipping, then domestic shipping. Delivery can take one to six-plus months ([Notes on K-pop](https://notesonkpop.com/the-k-pop-fandom-ecosystem-group-orders-what-they-create/), [Fanlore](https://fanlore.org/wiki/Group_order)).
 - **The pain:** managers typically ask for payment without buyer protection, so joiners have no recourse if a manager disappears. Merchandise scams aimed at foreign fans are common. Fraud against foreigners in Korea rose from about 5,300 victims in 2023 to nearly 20,000 in 2025 ([Korea Times](https://www.koreatimes.co.kr/southkorea/law-crime/20260621/fraud-against-foreigners-quadruples-in-2-years-with-k-pop-scams-rising)).
-- **The tooling:** Carrd pages, Google Forms, spreadsheets and X threads. Startups such as Paysable and KFriday are building tools for managers.
+- **The tooling:** Carrd pages, Google Forms, spreadsheets and X threads. Startups such as Paysable and KFriday are building tools for managers. *[to verify]*
 
 ### Fan-funded projects (social patronage)
 

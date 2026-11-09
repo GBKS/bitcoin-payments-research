@@ -109,7 +109,7 @@ Paulo Sacramento, a UX researcher in the Bitcoin Design Community, studied 25 pe
 
 | Name | What | Relevance |
 | --- | --- | --- |
-| Second / Bark | Ark implementation | The main Ark implementation |
+| Second / Bark | Ark implementation | One of the two main Ark implementations, with Arkade (Ark Labs) *[from memory; to verify]* |
 | [Spark](https://www.spark.money/) | Bitcoin payment layer for stablecoins and bitcoin | Named by Spiral as a newer self-custodial integration option |
 | x402 (Coinbase), AP2 (Google), Machine Payments Protocol (Stripe) | Agent payment protocols, mostly stablecoin-based | The competition in agentic payments ([Spiral report](https://github.com/spiralxyz/bitcoin-payments)) |
 | L402 | Lightning-based payments for APIs and agents *[from memory: Lightning Labs]* | Bitcoin's existing agent payment standard |
@@ -118,7 +118,7 @@ Paulo Sacramento, a UX researcher in the Bitcoin Design Community, studied 25 pe
 | [Trails Coffee](https://trailscoffee.com/), [BitTasker](https://bittasker.com/) | Live projects where people earn bitcoin | Earning; possible research partners |
 | [KDOL](https://en.wowtale.net/2025/10/09/232389) (Hashpurple) | Crowdfunding for K-pop fan ads, not crypto-based | Reference product for community economies |
 | Cash App / Square | Lightning on by default for about four million US Square merchants since March 2026 | Design and brand comparison; Spiral is part of Block |
-| CoinOS, a Japanese bitcoin community | Run their own Ark servers | Server diversity for Ark |
+| CoinOS, a Japanese bitcoin community | Run their own Ark servers *[from memory; to verify]* | Server diversity for Ark |
 | Taproot Assets | Stablecoins on bitcoin *[from memory: Lightning Labs]* | Dollars and bitcoin |
 
 ## Sources

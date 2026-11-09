@@ -49,7 +49,8 @@ Goal: extremely simple, inspired by Apple's Human Interface Guidelines, without 
 - **Keep the Markdown files plain:** no front matter required. GitHub Pages takes titles from the first heading (jekyll-titles-from-headings), handles files without front matter (jekyll-optional-front-matter) and converts relative `.md` links (jekyll-relative-links). Set defaults in `_config.yml` so every page uses the layout.
 - **Home page:** `00-start-here.md` (set as the site index, for example via a permalink default or a small `index.md` that includes or redirects to it). A short `README.md` serves the repo on GitHub.
 - **Look:** `system-ui` font stack; large bold page titles; larger lead paragraph; generous whitespace; narrow reading column; one accent color; quiet tables; light and dark mode via `prefers-color-scheme`.
-- **Left sidebar:** grouped sections (Getting started, Foundation, Research areas, Deep-dive materials, To do), current page highlighted, a small filter box (a few lines of JavaScript).
+- **Header:** site title on the left, a GitHub link on the right (from `repository` in `_config.yml`).
+- **Left sidebar:** grouped sections (Getting started, Foundation, Research areas, Deep-dive materials, To do) that can be collapsed, current page highlighted; single-page sections show as plain links. No filter box.
 - **Right "On this page":** built from each page's `h2` headings with a small script.
 - **Status line:** the italic paragraph directly under each page title renders as a light gray rounded card.
 - Mobile: sidebar collapses behind a menu button.
