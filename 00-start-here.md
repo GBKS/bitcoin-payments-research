@@ -26,7 +26,7 @@ What's missing is demand, and demand comes from products that serve real needs, 
 | # | Area | Question | Status |
 | --- | --- | --- | --- |
 | 11 | [Community-driven economies](11-community-driven-economies.md) | How do communities pool, give and exchange money, and what do they need? | Deep dive, first draft |
-| 12 | [Earning in bitcoin](12-earning-in-bitcoin.md) | Who gets paid in bitcoin today, and what do they need from a wallet? | Quick scan |
+| 12 | [Earning in bitcoin](12-earning-in-bitcoin.md) | Who gets paid in bitcoin today, and what do they need from a wallet? | Deep dive, first draft |
 | 13 | [Agentic payments](13-agentic-payments.md) | Will agents spend and earn bitcoin, and do people want to set limits once? | Quick scan |
 | 14 | [Dollars and bitcoin](14-dollars-and-bitcoin.md) | Why do merchants ask for USDT, and how should bitcoin wallets handle dollars? | Quick scan |
 | 15 | [Money that can't be frozen](15-money-that-cant-be-frozen.md) | Who needs censorship resistance today, and what do they use? | Quick scan |
@@ -48,4 +48,5 @@ The list will change as research reveals new areas or merges existing ones.
 
 ## Log
 
+- **November 9, 2026:** deep dive on earning in bitcoin. Auto-research pilot on Dollars and bitcoin; site published.
 - **November 8, 2026:** stablecoins page. Deep dive on payments that feel different (gifting and expression). Group orders teardown and research kit. Quick scans of all areas (12–18). Library set up; method and landscape drafted; community-driven economies added.
