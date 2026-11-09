@@ -21,6 +21,9 @@
   items:
     - { file: 11a-group-orders-teardown.md, number: "11a", title: Group orders teardown }
     - { file: 11b-group-orders-research-kit.md, number: "11b", title: Group orders research kit }
+- section: Cross-cutting
+  items:
+    - { file: 90-auto-research.md, number: "90", title: Auto-research }
 - section: To do
   items:
     - { file: TODO.md, title: To do }

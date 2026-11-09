@@ -9,6 +9,7 @@
 - [ ] **Gifting research** (area 16): interviews and co-design with diaspora families who send red envelopes or otoshidama across borders. **Help wanted.**
 - [ ] **Ideas that frame the research:** Viviana Zelizer's *The Social Meaning of Money*, Marcel Mauss on the gift, Prelec and Loewenstein on the "pain of paying."
 - [ ] **Policy watch:** GENIUS Act, CLARITY Act, tax exemptions for small payments, MiCA, Brazil's stablecoin rules, Korea's fundraising law, Apple's App Store rules on crypto and NFC.
+- [ ] **Auto-research pilot:** check every claim on one page with agents and audit the verdicts, following [Auto-research](90-auto-research.md).
 - [ ] **Prior research on bitcoin users and design:** Bitcoin Design Community research, River and Fidelity owner research. **Help wanted:** pointers to studies we've missed.
 
 ## Assumptions to check (from the November 8 review of shortcuts)

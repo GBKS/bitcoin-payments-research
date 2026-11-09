@@ -15,6 +15,7 @@ It will be published with GitHub Pages (Jekyll), with a very simple look inspire
 - `02-landscape.md`: context (Spiral's posts, payments in numbers, cost baseline, lessons from other payment systems, key projects).
 - `03-stablecoins.md`: what "stablecoins" covers, and who wants dollars and who doesn't.
 - `11`–`18`: research areas. `11` and `16` are deep dives; the others are quick scans. `11a` and `11b` are the group orders teardown and research kit.
+- `90-auto-research.md`: where AI agents could do research work (checking claims, keeping numbers current), and a one-page pilot.
 - `TODO.md`: open work, assumptions to check, items marked **help wanted**.
 
 File naming: `00`–`09` entry and foundation, `11`–`29` areas (`NN-short-name.md`), `90`–`99` cross-cutting.
@@ -50,7 +51,7 @@ Goal: extremely simple, inspired by Apple's Human Interface Guidelines, without 
 - **Home page:** `00-start-here.md` (set as the site index, for example via a permalink default or a small `index.md` that includes or redirects to it). A short `README.md` serves the repo on GitHub.
 - **Look:** `system-ui` font stack; large bold page titles; larger lead paragraph; generous whitespace; narrow reading column; one accent color; quiet tables; light and dark mode via `prefers-color-scheme`.
 - **Header:** site title on the left, a GitHub link on the right (from `repository` in `_config.yml`).
-- **Left sidebar:** grouped sections (Getting started, Foundation, Research areas, Deep-dive materials, To do) that can be collapsed, current page highlighted; single-page sections show as plain links. No filter box.
+- **Left sidebar:** grouped sections (Getting started, Foundation, Research areas, Deep-dive materials, Cross-cutting, To do) that can be collapsed, current page highlighted; single-page sections show as plain links. No filter box.
 - **Right "On this page":** built from each page's `h2` headings with a small script.
 - **Status line:** the italic paragraph directly under each page title renders as a light gray rounded card.
 - Mobile: sidebar collapses behind a menu button.
@@ -61,5 +62,7 @@ Goal: extremely simple, inspired by Apple's Human Interface Guidelines, without 
 
 - Public repo: `bitcoin-payments-research`. License: CC BY 4.0 for the content (add `LICENSE`).
 - `.gitignore`: `.obsidian/`, `.DS_Store`, `_site/`, `.jekyll-cache/`.
-- `README.md`: one paragraph on what this is, the author's perspective (a designer building a bitcoin wallet), "experimental, no promise of maintenance," how to contribute (issues and pull requests welcome; see `TODO.md`), license.
+- `README.md`: one paragraph on what this is, the author's perspective (a designer building a bitcoin wallet), "experimental, no promise of maintenance," how to contribute (issues and pull requests welcome; see `TODO.md` and `CONTRIBUTING.md`), license, and the prompt for contributing with an agent.
+- `CONTRIBUTING.md`: where to start, the content rules in short, pull request rules, and the agent prompt. Keep the prompt identical in `README.md` and `CONTRIBUTING.md`. Both files are GitHub-only (excluded from the site).
+- **Issues for claims to verify:** each item in the "To verify" list in `TODO.md` has an open issue labeled `to verify`. When an item is added or resolved, open or close its issue to match.
 - Before every push: check the content rules above, especially rules 2, 3 and 6. Git history is permanent.

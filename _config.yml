@@ -38,6 +38,7 @@ defaults:
 exclude:
   - CLAUDE.md
   - README.md
+  - CONTRIBUTING.md
   - LICENSE
   - Gemfile
   - Gemfile.lock

@@ -44,6 +44,7 @@ The list will change as research reveals new areas or merges existing ones.
 - [Stablecoins, unpacked](03-stablecoins.md): what "stablecoins" actually covers, who wants dollars and who doesn't
 - `11`–`18`: one file per area, starting as quick scans
 - [Group orders: a teardown of what managers built](11a-group-orders-teardown.md) and [Group orders: research kit](11b-group-orders-research-kit.md): the first direct research for area 11
+- [Auto-research](90-auto-research.md): where AI agents could check claims and keep numbers current, and a one-page pilot to test it
 
 ## Log
 
