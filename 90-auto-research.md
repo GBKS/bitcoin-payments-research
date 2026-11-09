@@ -1,6 +1,6 @@
 # Auto-research
 
-*Cross-cutting plan, not yet tried: where AI agents could do research work in this library, and a one-page pilot to test it. Last updated November 9, 2026.*
+*Cross-cutting plan: where AI agents could do research work in this library, a one-page pilot to test it, and its results. First pilot run November 9, 2026. Last updated November 9, 2026.*
 
 Auto-research works best when progress fits in one number and a cheap test can measure it: propose a change, measure it, keep it if it's better, repeat. Compressing signatures is a good fit, because "smaller output, still secure" can be checked automatically. *[to verify: public source for an example of this]* A research library is a poor fit for that loop as a whole, because its real output is judgment, and no test can score judgment. The layer underneath the judgment is different: claims, numbers, sources and labels can be checked. This page proposes letting agents work on that layer, while people keep the conclusions.
 
@@ -63,6 +63,27 @@ To give the loops something to measure, each page gets a list of its checkable c
 - **About 70–90%:** keep a person in the loop, improve the agent instructions, and try a second page.
 - **Below that, or a made-up quote that the recheck missed:** stop. The hard part is the check, not the agent, and that's worth writing up too.
 
+## Pilot results: Dollars and bitcoin
+
+Run on November 9, 2026. One agent extracted the claims; two agents checked them independently; the author audited every verdict. The claims, verdicts and quotes are in [claims/14-dollars-and-bitcoin.yml](https://github.com/GBKS/bitcoin-payments-research/blob/main/claims/14-dollars-and-bitcoin.yml).
+
+| Measure | Result |
+| --- | --- |
+| Extraction completeness | 25 of 27 claims (93%) on a list written before seeing the agent's. Both misses were deliberate exclusions the agent flagged. |
+| Agreement between checkers | 26 of 29 verdicts identical; the 3 differences were labeling or access, not substance |
+| Verdict accuracy | 29 of 29 (100%): the author agreed with every verdict |
+| Made-up quotes | None. Of the quotes a script could fetch, all were found verbatim on the source page (22 of 26 for one checker, 23 of 27 for the other) |
+| Unreachable sources | 4 quotes from one news site couldn't be checked by script, because the site blocks automated requests; another site blocked one checker entirely |
+| Author's time | About 15 minutes to audit 29 claims. Time to check them by hand: not yet estimated |
+
+**What it found:** three corrections ("merchants," not "one merchant," also wrong in [Landscape](02-landscape.md); a "no published volumes" claim that overstated its source; a wallet's stablecoin "plans" that had since launched), and sources for two claims that had been marked *to verify*.
+
+**What it means:** the pilot met the bar set above (about 90% agreement and no made-up quotes), so the next step is the full loop: claims lists for more pages, mechanical checks on pull requests, and scheduled refreshes of numbers. Two lessons for that loop: sites that block scripts need a fallback (an archived copy, or a person), and claims about something *not* happening can only be marked "nothing found as of" a date.
+
+## Contributing with your own agent
+
+The [prompt in CONTRIBUTING.md](https://github.com/GBKS/bitcoin-payments-research/blob/main/CONTRIBUTING.md#contributing-with-an-agent) is the checking step of this loop, run by a contributor's own agent on one claim at a time: pick an open [issue labeled `to verify`](https://github.com/GBKS/bitcoin-payments-research/issues?q=is%3Aopen+label%3A%22to+verify%22), find and open the sources, quote them, and let a person review before anything is submitted.
+
 ## Risks
 
 - **Gaming the number.** The cheapest way to reduce unverified claims is to delete or weaken hard ones. Count removed and weakened claims alongside verified ones.
@@ -71,8 +92,8 @@ To give the loops something to measure, each page gets a list of its checkable c
 - **One kind of source.** Agents return to whatever ranks well. Track how varied the sources are.
 - **Copyright.** Quotes stay short.
 
-## Open decisions
+## Decisions so far
 
-1. Run the pilot privately and publish the results with the first pull request, or run it in public from the start.
-2. Keep claims lists in `claims/` (visible on GitHub only) or in `_data/claims/` (so the site could show a verification status later).
-3. Who checks: agents for steps 1–3 and the author for step 4 is the cheapest setup that can still be inspected.
+1. **The first pilot ran locally,** and its results were published afterwards, with the page edits.
+2. **Claims lists live in `claims/`,** visible on GitHub but not on the site. Moving them to `_data/claims/` would let the site show a verification status later.
+3. **Agents ran steps 1–3 and the author step 4.** That remains the cheapest setup that can still be inspected.

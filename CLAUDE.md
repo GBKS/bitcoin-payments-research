@@ -15,7 +15,8 @@ It will be published with GitHub Pages (Jekyll), with a very simple look inspire
 - `02-landscape.md`: context (Spiral's posts, payments in numbers, cost baseline, lessons from other payment systems, key projects).
 - `03-stablecoins.md`: what "stablecoins" covers, and who wants dollars and who doesn't.
 - `11`–`18`: research areas. `11` and `16` are deep dives; the others are quick scans. `11a` and `11b` are the group orders teardown and research kit.
-- `90-auto-research.md`: where AI agents could do research work (checking claims, keeping numbers current), and a one-page pilot.
+- `90-auto-research.md`: where AI agents could do research work (checking claims, keeping numbers current), the one-page pilot and its results.
+- `claims/`: claims lists per page (`NN-short-name.yml`, format in `90-auto-research.md`) and pilot audit sheets. GitHub-only (excluded from the site). When a page's wording changes, keep the `text` of its claims in sync.
 - `TODO.md`: open work, assumptions to check, items marked **help wanted**.
 
 File naming: `00`–`09` entry and foundation, `11`–`29` areas (`NN-short-name.md`), `90`–`99` cross-cutting.
@@ -62,7 +63,7 @@ Goal: extremely simple, inspired by Apple's Human Interface Guidelines, without 
 
 - Public repo: `bitcoin-payments-research`. License: CC BY 4.0 for the content (add `LICENSE`).
 - `.gitignore`: `.obsidian/`, `.DS_Store`, `_site/`, `.jekyll-cache/`.
-- `README.md`: one paragraph on what this is, the author's perspective (a designer building a bitcoin wallet), "experimental, no promise of maintenance," how to contribute (issues and pull requests welcome; see `TODO.md` and `CONTRIBUTING.md`), license, and the prompt for contributing with an agent.
-- `CONTRIBUTING.md`: where to start, the content rules in short, pull request rules, and the agent prompt. Keep the prompt identical in `README.md` and `CONTRIBUTING.md`. Both files are GitHub-only (excluded from the site).
+- `README.md`: one paragraph on what this is, the author's perspective (a designer building a bitcoin wallet), "experimental, no promise of maintenance," how to contribute (issues and pull requests welcome; see `TODO.md` and `CONTRIBUTING.md`), license, and a link to the agent prompt in `CONTRIBUTING.md`.
+- `CONTRIBUTING.md`: where to start, the content rules in short, pull request rules, and the agent prompt. The agent prompt lives only here; `README.md` and `90-auto-research.md` link to it. `README.md` and `CONTRIBUTING.md` are GitHub-only (excluded from the site).
 - **Issues for claims to verify:** each item in the "To verify" list in `TODO.md` has an open issue labeled `to verify`. When an item is added or resolved, open or close its issue to match.
 - Before every push: check the content rules above, especially rules 2, 3 and 6. Git history is permanent.
