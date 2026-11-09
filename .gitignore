@@ -1,0 +1,8 @@
+.obsidian/
+.DS_Store
+_site/
+.jekyll-cache/
+Gemfile.lock
+vendor/
+.claude/
+.bundle/

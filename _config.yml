@@ -1,0 +1,50 @@
+title: Bitcoin payments research
+description: A public research notebook asking where demand for bitcoin payments could actually come from.
+lang: en
+repository: GBKS/bitcoin-payments-research   # used for the GitHub link in the header
+theme: null          # no theme; our own layout and stylesheet only
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# GitHub Pages plugins that let the Markdown files stay plain (no front matter).
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
+  - jekyll-relative-links
+
+titles_from_headings:
+  strip_title: false   # keep the H1 in the page; the layout doesn't repeat it
+
+relative_links:
+  enabled: true
+  collections: false
+
+readme_index:
+  enabled: false       # the home page is 00-start-here.md, not README.md
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: "00-start-here.md"
+    values:
+      permalink: /
+
+exclude:
+  - CLAUDE.md
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - .jekyll-cache
+  - .obsidian
+
+optional_front_matter:
+  remove_originals: true   # don't publish raw .md copies next to the pages

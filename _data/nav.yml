@@ -1,0 +1,26 @@
+# Sidebar sections and order. "file" is the Markdown file; "title" is the short label.
+- section: Getting started
+  items:
+    - { file: 00-start-here.md, title: Start here }
+- section: Foundation
+  items:
+    - { file: 01-method.md, title: Method }
+    - { file: 02-landscape.md, title: Landscape }
+    - { file: 03-stablecoins.md, title: "Stablecoins, unpacked" }
+- section: Research areas
+  items:
+    - { file: 11-community-driven-economies.md, number: "11", title: Community-driven economies }
+    - { file: 12-earning-in-bitcoin.md, number: "12", title: Earning in bitcoin }
+    - { file: 13-agentic-payments.md, number: "13", title: Agentic payments }
+    - { file: 14-dollars-and-bitcoin.md, number: "14", title: Dollars and bitcoin }
+    - { file: 15-money-that-cant-be-frozen.md, number: "15", title: "Money that can't be frozen" }
+    - { file: 16-payments-that-feel-different.md, number: "16", title: Payments that feel different }
+    - { file: 17-brand-and-culture-as-demand.md, number: "17", title: Brand and culture as demand }
+    - { file: 18-last-mile-infrastructure.md, number: "18", title: Last-mile infrastructure }
+- section: Deep-dive materials
+  items:
+    - { file: 11a-group-orders-teardown.md, number: "11a", title: Group orders teardown }
+    - { file: 11b-group-orders-research-kit.md, number: "11b", title: Group orders research kit }
+- section: To do
+  items:
+    - { file: TODO.md, title: To do }

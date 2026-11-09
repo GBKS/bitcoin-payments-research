@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.url == "/" %}{{ site.title }}{% else %}{{ page.title | strip_html }} · {{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta name="color-scheme" content="light dark">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="header">
+    <a class="header-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <div class="header-links">
+      <a href="https://github.com/{{ site.repository }}">GitHub</a>
+      <button class="menu-button" type="button" aria-controls="sidebar" aria-expanded="false">Menu</button>
+    </div>
+  </header>
+
+  <div class="layout">
+    <nav class="sidebar" id="sidebar" aria-label="Pages">
+      {% for group in site.data.nav %}
+      {% if group.items.size == 1 %}
+        {% assign item = group.items[0] %}
+        {% assign target = site.pages | where: "path", item.file | first %}
+        <a class="nav-top"{% if page.path == item.file %} aria-current="page"{% endif %} href="{{ target.url | relative_url }}">{{ item.title }}</a>
+      {% else %}
+        {% assign in_group = group.items | where: "file", page.path | first %}
+        <details class="nav-group" open>
+          <summary class="nav-heading{% if in_group %} is-current{% endif %}">{{ group.section }}</summary>
+          <ul>
+            {% for item in group.items %}
+            {% assign target = site.pages | where: "path", item.file | first %}
+            {% if target %}
+            <li><a href="{{ target.url | relative_url }}"{% if page.path == item.file %} aria-current="page"{% endif %}><span class="num">{{ item.number }}</span>{{ item.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+        </details>
+      {% endif %}
+      {% endfor %}
+    </nav>
+
+    <main class="content" id="content">
+      {{ content }}
+      <footer class="footer">
+        Content licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+      </footer>
+    </main>
+
+    <aside class="toc" aria-label="On this page" hidden>
+      <ul></ul>
+    </aside>
+  </div>
+
+  <script>
+    (function () {
+      // Wrap tables so wide ones scroll sideways instead of breaking the layout.
+      document.querySelectorAll('.content table').forEach(function (t) {
+        var wrap = document.createElement('div');
+        wrap.className = 'table-wrap';
+        t.parentNode.insertBefore(wrap, t);
+        wrap.appendChild(t);
+      });
+
+      // "On this page": the page's h2 headings, with the current one highlighted.
+      var toc = document.querySelector('.toc');
+      var list = toc.querySelector('ul');
+      var headings = Array.prototype.slice.call(document.querySelectorAll('.content h2[id]'));
+      var links = headings.map(function (h) {
+        var a = document.createElement('a');
+        a.href = '#' + h.id;
+        a.textContent = h.textContent;
+        var li = document.createElement('li');
+        li.appendChild(a);
+        list.appendChild(li);
+        return a;
+      });
+      if (links.length > 1) {
+        toc.hidden = false;
+        var update = function () {
+          var current = 0;
+          headings.forEach(function (h, i) {
+            if (h.getBoundingClientRect().top < 120) current = i;
+          });
+          links.forEach(function (a, i) { a.classList.toggle('is-current', i === current); });
+        };
+        window.addEventListener('scroll', update, { passive: true });
+        update();
+      }
+
+      // Small screens: show and hide the sidebar.
+      var button = document.querySelector('.menu-button');
+      button.addEventListener('click', function () {
+        var open = document.body.classList.toggle('menu-open');
+        button.setAttribute('aria-expanded', open);
+        button.textContent = open ? 'Close' : 'Menu';
+      });
+    })();
+  </script>
+</body>
+</html>
