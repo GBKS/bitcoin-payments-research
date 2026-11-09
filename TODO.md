@@ -38,6 +38,7 @@
 - [ ] Second / Bark and Arkade as the two main Ark implementations, and CoinOS running its own Ark servers (Landscape).
 - [ ] Whether Second has announced stablecoin plans for Bark (areas 3 and 14).
 - [ ] Paysable and KFriday: what they build for group order managers, with sources (area 11).
+- [ ] KDOL: can fans still fund ads directly with money in the app (for example "Support Coins"), alongside Heart voting? Ideally a source newer than the Wowtale interview (area 11).
 - [ ] Wallet of Satoshi's stablecoin launch: an official announcement, to replace the secondary reports (area 14).
 - [ ] Which bitcoin layers support dollar tokens: Spark, Liquid, RGB (area 3).
 - [ ] Trails Coffee and BitTasker details (area 12; sites couldn't be opened). **Help wanted.**
