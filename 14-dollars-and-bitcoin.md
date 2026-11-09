@@ -4,7 +4,7 @@
 
 ## The question
 
-Stablecoins are winning payments. Bitcoin builders hear it from merchants directly; one told a builder to "support USDT or go away" ([quoted by Spiral](https://spiralxyz.substack.com/p/value-stored-now-what)). What do merchants and users actually mean when they ask for USDT? And how should bitcoin wallets handle people who want dollars: ignore it, display dollars, swap at the edges, or hold dollars on bitcoin rails?
+Stablecoins are winning payments. Bitcoin builders hear it from merchants directly; merchants told one builder to "support USDT or go away" ([quoted by Spiral](https://spiralxyz.substack.com/p/value-stored-now-what)). What do merchants and users actually mean when they ask for USDT? And how should bitcoin wallets handle people who want dollars: ignore it, display dollars, swap at the edges, or hold dollars on bitcoin rails?
 
 ## What's happening
 
@@ -17,9 +17,9 @@ Stablecoins are winning payments. Bitcoin builders hear it from merchants direct
 
 **Dollars are arriving on bitcoin rails.**
 
-- **Lightning:** Tether announced USDT on bitcoin and Lightning through Taproot Assets in January 2025 ([The Block](https://www.theblock.co/post/338109/tethers-usdt-stablecoin-returns-to-bitcoin-with-lightning-labs-partnership)). It went live in March 2026, but the ecosystem is "still nascent," mostly LND-based, with early adoption through Speed Wallet and LnFi and no published volumes ([Spark research](https://spark.money/research/lightning-network-2026-state)).
-- **Ark:** Tether backed Ark Labs' $5.2 million seed round in March 2026 to expand stablecoin support on Arkade, the other main Ark implementation ([The Block](https://www.theblock.co/post/393198/tether-backs-ark-labs-5-2-million-seed-raise-to-expand-stablecoin-and-programmable-finance-infrastructure-on-bitcoin)). Second hasn't announced plans for stablecoins in Bark. *[to verify]*
-- **Bitcoin wallets with a dollar balance:** Blink offers a Dollar Balance, custodial through Stablesats or non-custodial with supported stablecoins ([Blink](https://blink.sv/en/dollar-balance)). *[to verify: Breez SDK's "stable balance" and Wallet of Satoshi's stablecoin plans]*
+- **Lightning:** Tether announced USDT on bitcoin and Lightning through Taproot Assets in January 2025 ([The Block](https://www.theblock.co/post/338109/tethers-usdt-stablecoin-returns-to-bitcoin-with-lightning-labs-partnership)). It went live in March 2026, but the ecosystem is "still nascent," mostly LND-based, with early adoption through Speed Wallet and LnFi; the report gives no volumes ([Spark research](https://spark.money/research/lightning-network-2026-state)).
+- **Ark:** Tether backed Ark Labs' $5.2 million seed round in March 2026 to expand stablecoin support on Arkade, the other main Ark implementation ([The Block](https://www.theblock.co/post/393198/tether-backs-ark-labs-5-2-million-seed-raise-to-expand-stablecoin-and-programmable-finance-infrastructure-on-bitcoin)). As of November 2026, Second hasn't announced plans for stablecoins in Bark. *[to verify]*
+- **Bitcoin wallets with a dollar balance:** Blink offers a Dollar Balance, custodial through Stablesats or non-custodial with supported stablecoins ([Blink](https://www.blink.sv/en/dollar-balance)). The Breez SDK offers a "stable balance" that converts received sats to a stablecoin ([Breez SDK docs](https://sdk-doc-spark.breez.technology/guide/stable_balance.html)). Wallet of Satoshi added stablecoins to its self-custodial version, in beta from July 2026 and switched on in September, according to secondary reports ([Coin-Turk](https://en.coin-turk.com/wallet-of-satoshi-launches-stablecoins-on-lightning-with-self-custody-option/), [Stacker News](https://stacker.news/items/1561905)). *[to verify: official Wallet of Satoshi announcement]*
 
 **Say versus do:** merchants *say* "support USDT." What they *do* is settle in USDT on Tron, mostly through payment companies, without caring much about the chain. That suggests they want *stable dollars their counterparties already use*, not USDT as such. Nobody has asked them directly what would make them accept something else.
 
@@ -79,4 +79,7 @@ The design problem is real at every step: two currencies in one wallet, without 
 - [The Block on USDT on Lightning](https://www.theblock.co/post/338109/tethers-usdt-stablecoin-returns-to-bitcoin-with-lightning-labs-partnership)
 - [Spark: State of the Lightning Network in 2026](https://spark.money/research/lightning-network-2026-state)
 - [The Block on Tether backing Ark Labs](https://www.theblock.co/post/393198/tether-backs-ark-labs-5-2-million-seed-raise-to-expand-stablecoin-and-programmable-finance-infrastructure-on-bitcoin)
-- [Blink Dollar Balance](https://blink.sv/en/dollar-balance)
+- [Blink Dollar Balance](https://www.blink.sv/en/dollar-balance)
+- [Breez SDK: Stable Balance](https://sdk-doc-spark.breez.technology/guide/stable_balance.html)
+- [Coin-Turk on Wallet of Satoshi stablecoins](https://en.coin-turk.com/wallet-of-satoshi-launches-stablecoins-on-lightning-with-self-custody-option/)
+- [Stacker News on Wallet of Satoshi enabling stablecoins](https://stacker.news/items/1561905)

@@ -95,7 +95,7 @@ So actual payments are roughly **1% of headline volume**. "Stablecoins process m
 ## Stablecoins on bitcoin
 
 - **Lightning:** USDT through Taproot Assets has been live since March 2026, still nascent ([Spark research](https://spark.money/research/lightning-network-2026-state)).
-- **Ark:** Tether backed Ark Labs' seed round to bring stablecoins to Arkade ([The Block](https://www.theblock.co/post/393198/tether-backs-ark-labs-5-2-million-seed-raise-to-expand-stablecoin-and-programmable-finance-infrastructure-on-bitcoin)). Second hasn't announced stablecoin plans for Bark. *[to verify]*
+- **Ark:** Tether backed Ark Labs' seed round to bring stablecoins to Arkade ([The Block](https://www.theblock.co/post/393198/tether-backs-ark-labs-5-2-million-seed-raise-to-expand-stablecoin-and-programmable-finance-infrastructure-on-bitcoin)). As of November 2026, Second hasn't announced stablecoin plans for Bark. *[to verify]*
 - **Other bitcoin layers:** Spark, Liquid and RGB support or plan dollar tokens *[from memory; to verify]*.
 - **Synthetic bitcoin-based dollars:** Blink's Stablesats ([Blink](https://blink.sv/en/dollar-balance)).
 - **Swaps instead of holding:** atomic swaps between Lightning and USDT ([Bitcoin Magazine on Boltz](https://bitcoinmagazine.com/business/boltz-exchange-launches-atomic-usdt-swaps-for-lightning-network-users)).

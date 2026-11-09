@@ -35,7 +35,7 @@ The question behind this library (why so few people pay with bitcoin, when the t
 
 **The headline:** help people and businesses **earn** and hold bitcoin, not just spend it. Market bitcoin as "something you get paid in rather than something you immediately spend."
 
-**What the community agreed on:** demand, not technology, is the main gap. Volatility and familiarity with dollar prices remain barriers. Earning before spending was the most repeated point. Stablecoins are winning: one merchant told MegalithicBTC to "support USDT or go away," and issuers can share reserve yield with partners and customers. On X, the most common reply called for tax exemptions on small payments.
+**What the community agreed on:** demand, not technology, is the main gap. Volatility and familiarity with dollar prices remain barriers. Earning before spending was the most repeated point. Stablecoins are winning: merchants told MegalithicBTC to "support USDT or go away," and issuers can share reserve yield with partners and customers. On X, the most common reply called for tax exemptions on small payments.
 
 **Three areas that could move bitcoin payments in the next five years**
 

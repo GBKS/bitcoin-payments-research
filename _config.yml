@@ -39,6 +39,7 @@ exclude:
   - CLAUDE.md
   - README.md
   - CONTRIBUTING.md
+  - claims              # claims lists and pilot files stay GitHub-only for now
   - LICENSE
   - Gemfile
   - Gemfile.lock
