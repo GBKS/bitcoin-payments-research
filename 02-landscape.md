@@ -1,6 +1,6 @@
 # Landscape
 
-*The shared context for every area document, so they don't each repeat it. Last updated November 9, 2026.*
+*The shared context for every area document, so they don't each repeat it. Last updated November 10, 2026.*
 
 The question behind this library (why so few people pay with bitcoin, when the technology works) came from a year of conversations at bitcoin conferences. Spiral's two recent posts arrived while this thinking was underway. They reach a similar diagnosis, which is why they're summarized here as useful context, not as the starting point.
 
@@ -52,7 +52,7 @@ The question behind this library (why so few people pay with bitcoin, when the t
 ## Bitcoin payments in numbers
 
 - **Merchant acceptance is mostly a map, not a market.** BTC Map listed 26,914 bitcoin-accepting merchants on August 31, 2026, but only 16,243 (about 60%) had been verified within the past year ([BTC Map](https://blog.btcmap.org/posts/2026-08/)).
-- **Acceptance stopped being the bottleneck in the US.** On March 30, 2026, Square turned on Lightning payments by default for about four million US merchants (outside New York), with zero fees through 2026 and 1% after. Merchants can settle in dollars, keep everything in bitcoin, or keep a percentage ([Whale Alert](https://whale-alert.io/stories/bb9e015c075f35/Block-auto-enables-native-Bitcoin-Lightning-payments-for-4M-Square-merchants-zero-processing-fees-through-2026-merchants-may-settle-in-USD-BTC-or-a-percentage)).
+- **Acceptance stopped being the bottleneck in the US.** On March 30, 2026, Square began turning on Lightning payments by default for eligible US sellers, out of about four million (outside New York), with zero fees through 2026 and 1% after. Merchants can settle in dollars, keep everything in bitcoin, or keep a percentage ([Whale Alert](https://whale-alert.io/stories/bb9e015c075f35/Block-auto-enables-native-Bitcoin-Lightning-payments-for-4M-Square-merchants-zero-processing-fees-through-2026-merchants-may-settle-in-USD-BTC-or-a-percentage)). About 1 million were enabled by May 2026, receiving dollars by default; no usage figures are published ([Bitcoin Magazine](https://bitcoinmagazine.com/news/square-crosses-1-million-bitcoin-merchants)).
 - **Bitcoin is how people enter crypto, not how they pay.** Chainalysis's 2025 index found bitcoin drew over $4.6 trillion in fiat inflows, against just under $1 trillion for stablecoins. The top countries were India, the US, Pakistan, Vietnam and Brazil ([Cointelegraph](https://cointelegraph.com/news/us-second-in-crypto-adoption-india-leads-all-chainalysis), September 2025).
 - **Lightning:** USDT on Lightning went live in March 2026 but remains nascent, mostly LND-based ([Spark research](https://spark.money/research/lightning-network-2026-state)).
 
@@ -117,7 +117,7 @@ Paulo Sacramento, a UX researcher in the Bitcoin Design Community, studied 25 pe
 | [Pave](https://gbks.substack.com/p/pave-protocol-for-last-mile-bitcoin) | A sketch by this library's author for paying phone numbers and bank accounts from a bitcoin wallet | Last-mile infrastructure |
 | [Trails Coffee](https://trailscoffee.com/), [BitTasker](https://bittasker.com/) | Live projects where people earn bitcoin | Earning; possible research partners |
 | [KDOL](https://en.wowtale.net/2025/10/09/232389) (Hashpurple) | Crowdfunding for K-pop fan ads, not crypto-based | Reference product for community economies |
-| Cash App / Square | Lightning on by default for about four million US Square merchants since March 2026 | Design and brand comparison; Spiral is part of Block |
+| Cash App / Square | Lightning on by default for eligible US Square sellers since March 2026; about 1 million enabled by May | Design and brand comparison; Spiral is part of Block |
 | CoinOS, a Japanese bitcoin community | Run their own Ark servers *[from memory; to verify]* | Server diversity for Ark |
 | Taproot Assets | Stablecoins on bitcoin *[from memory: Lightning Labs]* | Dollars and bitcoin |
 
@@ -125,6 +125,7 @@ Paulo Sacramento, a UX researcher in the Bitcoin Design Community, studied 25 pe
 
 - [Pix in Brazil: a field study for the Bitcoin community](https://www.psacramento.com/pix-in-brazil-a-field-study-for-the-bitcoin-community/)
 - [BTC Map: global metrics, August 2026](https://blog.btcmap.org/posts/2026-08/)
+- [Bitcoin Magazine on Square's 1 million merchants](https://bitcoinmagazine.com/news/square-crosses-1-million-bitcoin-merchants)
 - [Whale Alert on Square's Lightning rollout](https://whale-alert.io/stories/bb9e015c075f35/Block-auto-enables-native-Bitcoin-Lightning-payments-for-4M-Square-merchants-zero-processing-fees-through-2026-merchants-may-settle-in-USD-BTC-or-a-percentage)
 - [Cointelegraph on Chainalysis's 2025 index](https://cointelegraph.com/news/us-second-in-crypto-adoption-india-leads-all-chainalysis)
 - [African Exponent on World Bank remittance prices](https://www.africanexponent.com/chart-of-the-day-sending-200-home-to-sub-saharan-africa-costs-8-46-percent/)
