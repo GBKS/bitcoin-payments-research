@@ -1,4 +1,5 @@
 # Claims on 14-dollars-and-bitcoin.md, extracted by an agent and checked by two agents on 2026-11-09 (auto-research pilot).
+# Updated 2026-11-10 for the deep dive: every text still matches the page; 14-17 rechecked.
 # status: the agreed verdict after page edits. quote_check: whether a script found the quote verbatim on the source page.
 
 - id: "14-01"
@@ -184,9 +185,9 @@
   source: "https://spark.money/research/lightning-network-2026-state"
   quote: "Tether announced USDT support on Bitcoin and Lightning in January 2025, with the integration going live in March 2026"
   quote_check: "found"
-  status: "verified"
-  checked: "2026-11-09, two agents"
-  note: ""
+  status: "partly"
+  checked: "2026-11-10, agent research plus manual recheck"
+  note: "Source is a competitor's research page; Live Bitcoin News (2026-03-21) also reports the go-live. No primary Tether or Lightning Labs confirmation found; Lightning Labs' Wavelength listed stablecoins as 'coming soon' on 2026-10-23. Page now says 'according to secondary reports'."
 
 - id: "14-18"
   text: "the ecosystem is \"still nascent,\""

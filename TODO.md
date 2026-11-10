@@ -1,6 +1,6 @@
 # To do
 
-*Open work on this research library. Items marked **help wanted** are good places for others to contribute. Last updated November 9, 2026.*
+*Open work on this research library. Items marked **help wanted** are good places for others to contribute. Last updated November 10, 2026.*
 
 ## Research
 
@@ -20,7 +20,7 @@
 - [ ] **2. Existing gifting tools:** Lightning gift links, ecash tokens (Cashu), bitcoin gift cards and vouchers. What exists, what works, what doesn't.
     - Include [HongBao](https://hongbaob.tc): physical red envelopes with printed on-chain paper wallets, designed for bitcoiners gifting to family ("Gift Bitcoin = Teach Bitcoin"). Open source, "used by 81 Bitcoiners" (November 2026).
 - [ ] **3. Network effects behind red envelopes:** how much of WeChat's success came from its existing network, and what that means for gifts sent across borders through other apps.
-- [ ] **4. Add a "Key assumptions" section** to each deep dive (11, 16; 12 has one): what has to be true for the thesis to hold.
+- [ ] **4. Add a "Key assumptions" section** to each deep dive (11, 16; 12 and 14 have one): what has to be true for the thesis to hold.
 - [ ] **5. Replace weak sources with originals** where numbers carry weight: the BIS working paper on stablecoin inflows, a16z's State of Crypto, the Visa and Dune non-dollar report, Spiral's 2022 survey details.
 - [ ] **6. Flag competitor-authored sources:** Spark's research pages are cited several times; note their perspective, and find independent sources where possible.
 - [ ] **7. Fix say-versus-do comparisons** that compare different populations (Oobit employees versus Pantera's crypto-paid respondents; Deel 2022 versus Pantera 2024).
@@ -45,6 +45,7 @@
 - [ ] Current volumes for Nostr zaps and value-for-value podcasting (area 16). **Help wanted.**
 - [ ] Status of the US de minimis tax exemption (S.2207) since August 2026 (area 12).
 - [ ] Strike's paycheck-to-bitcoin fees and whether Deel still offers bitcoin withdrawals (area 12).
+- [ ] USDT on Lightning: an official Tether or Lightning Labs confirmation that it's live, and any figures on supply or volume; whether issuers can freeze Taproot Assets (area 14).
 - [ ] SSPS status and adoption (area 18).
 - [ ] Tando usage: payments to M-Pesa numbers, and how many recipients claim their addresses (area 18). **Help wanted.**
 

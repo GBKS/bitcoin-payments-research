@@ -1,6 +1,6 @@
 # Start here: where demand for bitcoin payments could come from
 
-*A research notebook. Last updated November 9, 2026.*
+*A research notebook. Last updated November 10, 2026.*
 
 Bitcoin payment technology works better than ever, yet few people pay with bitcoin. That gap was hard to miss at conferences throughout 2026. This library asks where demand could actually come from: which people, needs and situations self-custodial bitcoin payments could serve better than anything else.
 
@@ -28,7 +28,7 @@ What's missing is demand, and demand comes from products that serve real needs, 
 | 11 | [Community-driven economies](11-community-driven-economies.md) | How do communities pool, give and exchange money, and what do they need? | Deep dive, first draft |
 | 12 | [Earning in bitcoin](12-earning-in-bitcoin.md) | Who gets paid in bitcoin today, and what do they need from a wallet? | Deep dive, first draft |
 | 13 | [Agentic payments](13-agentic-payments.md) | Will agents spend and earn bitcoin, and do people want to set limits once? | Quick scan |
-| 14 | [Dollars and bitcoin](14-dollars-and-bitcoin.md) | Why do merchants ask for USDT, and how should bitcoin wallets handle dollars? | Quick scan |
+| 14 | [Dollars and bitcoin](14-dollars-and-bitcoin.md) | Why do merchants ask for USDT, and how should bitcoin wallets handle dollars? | Deep dive, first draft |
 | 15 | [Money that can't be frozen](15-money-that-cant-be-frozen.md) | Who needs censorship resistance today, and what do they use? | Quick scan |
 | 16 | [Payments that feel different](16-payments-that-feel-different.md) | Gifting, payments as expression, micropayments, games | Deep dive, first draft |
 | 17 | [Brand and culture as demand](17-brand-and-culture-as-demand.md) | How do brand, campaigns and collaborations create demand? | Quick scan |
@@ -48,5 +48,6 @@ The list will change as research reveals new areas or merges existing ones.
 
 ## Log
 
+- **November 10, 2026:** deep dive on dollars and bitcoin.
 - **November 9, 2026:** deep dive on earning in bitcoin. Auto-research pilot on Dollars and bitcoin; site published.
 - **November 8, 2026:** stablecoins page. Deep dive on payments that feel different (gifting and expression). Group orders teardown and research kit. Quick scans of all areas (12–18). Library set up; method and landscape drafted; community-driven economies added.
