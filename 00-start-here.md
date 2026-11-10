@@ -31,7 +31,7 @@ What's missing is demand, and demand comes from products that serve real needs, 
 | 14 | [Dollars and bitcoin](14-dollars-and-bitcoin.md) | Why do merchants ask for USDT, and how should bitcoin wallets handle dollars? | Deep dive, first draft |
 | 15 | [Money that can't be frozen](15-money-that-cant-be-frozen.md) | Who needs censorship resistance today, and what do they use? | Deep dive, first draft |
 | 16 | [Payments that feel different](16-payments-that-feel-different.md) | Gifting, payments as expression, micropayments, games | Deep dive, first draft |
-| 17 | [Brand and culture as demand](17-brand-and-culture-as-demand.md) | How do brand, campaigns and collaborations create demand? | Quick scan |
+| 17 | [Brand and culture as demand](17-brand-and-culture-as-demand.md) | How do brand, campaigns and collaborations create demand? | Deep dive, first draft |
 | 18 | [Last-mile infrastructure](18-last-mile-infrastructure.md) | Getting money in and out without lock-in (supporting area) | Deep dive, first draft |
 
 The list will change as research reveals new areas or merges existing ones.
@@ -48,6 +48,6 @@ The list will change as research reveals new areas or merges existing ones.
 
 ## Log
 
-- **November 10, 2026:** deep dives on dollars and bitcoin, money that can't be frozen, agentic payments and last-mile infrastructure. Boltz's suspension added to Dollars and bitcoin and Stablecoins, unpacked; Square's merchant count reconciled in Landscape.
+- **November 10, 2026:** deep dives on dollars and bitcoin, money that can't be frozen, agentic payments, last-mile infrastructure, and brand and culture. Boltz's suspension added to Dollars and bitcoin and Stablecoins, unpacked; Square's merchant count reconciled in Landscape.
 - **November 9, 2026:** deep dive on earning in bitcoin. Auto-research pilot on Dollars and bitcoin; site published.
 - **November 8, 2026:** stablecoins page. Deep dive on payments that feel different (gifting and expression). Group orders teardown and research kit. Quick scans of all areas (12–18). Library set up; method and landscape drafted; community-driven economies added.
