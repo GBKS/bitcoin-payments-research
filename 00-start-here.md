@@ -48,12 +48,13 @@ The list will change as research reveals new areas or merges existing ones.
 - [Method](01-method.md): how the research is done and written up
 - [Landscape](02-landscape.md): context from the wider conversation, including Spiral's recent posts, payments in numbers, and key projects
 - [Stablecoins, unpacked](03-stablecoins.md): what "stablecoins" actually covers, who wants dollars and who doesn't
+- [The internet's native currency, unpacked](04-internet-native-money.md): the six claims inside "native currency of the internet": paying instead of ads, pricing spam, machine payments, paying for AI crawling, permissionless receiving, and unit of account
 - `11`–`18`: one file per area, each now a first-draft deep dive
 - [Group orders: a teardown of what managers built](11a-group-orders-teardown.md) and [Group orders: research kit](11b-group-orders-research-kit.md): the first direct research for area 11
 - [Auto-research](90-auto-research.md): where AI agents could check claims and keep numbers current, and a one-page pilot to test it
 
 ## Log
 
-- **November 10, 2026:** deep dives on dollars and bitcoin, money that can't be frozen, agentic payments, last-mile infrastructure, and brand and culture. Boltz's suspension added to Dollars and bitcoin and Stablecoins, unpacked; Square's merchant count reconciled in Landscape. Working thesis and lessons revised from all deep dives.
+- **November 10, 2026:** deep dives on dollars and bitcoin, money that can't be frozen, agentic payments, last-mile infrastructure, and brand and culture. Boltz's suspension added to Dollars and bitcoin and Stablecoins, unpacked; Square's merchant count reconciled in Landscape. Working thesis and lessons revised from all deep dives. New foundation page: the internet's native currency, unpacked.
 - **November 9, 2026:** deep dive on earning in bitcoin. Auto-research pilot on Dollars and bitcoin; site published.
 - **November 8, 2026:** stablecoins page. Deep dive on payments that feel different (gifting and expression). Group orders teardown and research kit. Quick scans of all areas (12–18). Library set up; method and landscape drafted; community-driven economies added.

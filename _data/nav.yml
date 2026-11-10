@@ -7,6 +7,7 @@
     - { file: 01-method.md, title: Method }
     - { file: 02-landscape.md, title: Landscape }
     - { file: 03-stablecoins.md, title: "Stablecoins, unpacked" }
+    - { file: 04-internet-native-money.md, title: "The internet's native currency" }
 - section: Research areas
   items:
     - { file: 11-community-driven-economies.md, number: "11", title: Community-driven economies }

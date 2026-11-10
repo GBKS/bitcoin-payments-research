@@ -14,6 +14,7 @@ It will be published with GitHub Pages (Jekyll), with a very simple look inspire
 - `01-method.md`: principles, say/do/make, quick-scan and deep-dive templates, evidence labels, file conventions.
 - `02-landscape.md`: context (Spiral's posts, payments in numbers, cost baseline, lessons from other payment systems, key projects).
 - `03-stablecoins.md`: what "stablecoins" covers, and who wants dollars and who doesn't.
+- `04-internet-native-money.md`: the claims inside "native currency of the internet" (paying instead of ads, pricing spam, machine payments, AI crawling, permissionless receiving, unit of account).
 - `11`–`18`: research areas. `11`–`18` are all deep dives (first drafts). `11a` and `11b` are the group orders teardown and research kit.
 - `90-auto-research.md`: where AI agents could do research work (checking claims, keeping numbers current), the one-page pilot and its results.
 - `claims/`: claims lists per page (`NN-short-name.yml`, format in `90-auto-research.md`) and pilot audit sheets. GitHub-only (excluded from the site). When a page's wording changes, keep the `text` of its claims in sync.

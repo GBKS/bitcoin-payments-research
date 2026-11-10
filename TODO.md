@@ -50,6 +50,7 @@
 - [ ] 402 Index counts: why L402 and x402 endpoint numbers changed sharply between October and November 2026, and any published L402 payment volume (area 13).
 - [ ] A route from Lightning to Korean won (and to Pix keys and Argentine QR codes) beyond prototypes; whether Boltz has restarted (area 18).
 - [ ] Spiral's 2022 report on how women view bitcoin is no longer online: find an archived copy and recheck the figures (area 17).
+- [ ] Cloudflare's NET Dollar: has it launched, and does the Monetization Gateway use it? Also its Q2 2026 statement that over half of traffic is not human (page 04).
 - [ ] Tando usage: payments to M-Pesa numbers, and how many recipients claim their addresses (area 18). **Help wanted.**
 
 ## Maintenance
