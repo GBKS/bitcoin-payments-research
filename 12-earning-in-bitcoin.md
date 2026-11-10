@@ -1,6 +1,6 @@
 # Earning in bitcoin
 
-*Deep dive, first draft. Builds on the November 8 quick scan. Desk research only. Last updated November 9, 2026.*
+*Deep dive, first draft. Builds on the November 8 quick scan. Desk research only. Last updated November 10, 2026.*
 
 ## Thesis
 
@@ -106,7 +106,7 @@ Several projects pay people in bitcoin on purpose, so that local merchants have 
 El Salvador made bitcoin legal tender in 2021 and amended the law in January 2025 under an IMF deal: acceptance is now optional, taxes can't be paid in bitcoin, and the state wallet Chivo is being wound down ([Decrypt](https://decrypt.co/303626/el-salvador-bitcoin-law-amendment-imf-loan)).
 
 - Only 8.1% of Salvadorans used bitcoin to pay in 2024, the lowest since 2021, in a poll of 1,266 people by the Central American University's IUDOP ([El Heraldo](https://www.elheraldo.hn/mundo/uso-del-bitcoin-salvador-alcanza-nivel-mas-bajo-2024-CF23621470), January 2025).
-- An independent study of about 1,800 households found that about 20% kept using Chivo after spending its $30 sign-up bonus; of firms that accepted bitcoin, 88% converted it to dollars ([The Block](https://www.theblock.co/post/144927/everyday-bitcoin-usage-in-el-salvador-remains-low-despite-government-push-us-academic-study-finds), 2022).
+- An independent face-to-face survey of 1,800 households in February 2022 found that 20% of respondents kept using Chivo after spending its $30 sign-up bonus. Only 20% of firms accepted bitcoin, bitcoin made up 4.9% of sales on average, and 88% of businesses converted their bitcoin sales to dollars ([Alvarez, Argente and Van Patten](https://www.davidargente.com/_files/ugd/b05023_7825615207654784864b4c4cc4ec6550.pdf), April 2022; also reported by [The Block](https://www.theblock.co/post/144927/everyday-bitcoin-usage-in-el-salvador-remains-low-despite-government-push-us-academic-study-finds)).
 - At El Zonte ("Bitcoin Beach"), a 2026 report says bitcoin payments have become rare and most transactions are by card ([Crypto Briefing](https://cryptobriefing.com/bitcoin-usage-declines-in-el-zonte-as-card-payments-rise/), August 2026), while the tourism minister claims sales there rose 30% thanks to bitcoin, without data ([El Salvador in English](https://elsalvadorinenglish.com/2025/11/11/el-salvadors-bitcoin-beach-sees-30-sales-growth/), November 2025).
 
 **What it shows:** a mandate and a bonus didn't create earners. I found no 2025–2026 source on salaries paid in bitcoin there. *[to verify]*
@@ -118,6 +118,15 @@ El Salvador made bitcoin legal tender in 2021 and amended the law in January 202
 - **Latin America overall** leans to stablecoins: they were over half of exchange purchases with pesos and reais ([Chainalysis](https://www.chainalysis.com/blog/latin-america-crypto-adoption-2025/), October 2025).
 
 **What it shows:** people *buy* bitcoin to save, and get *paid* in dollars to live. No public source shows a group of market earners choosing bitcoin over stablecoins as income.
+
+## Lessons from elsewhere
+
+How people treat money earned in a separate currency, from games, gig work and research on mental accounting:
+
+- **Earned platform money gets cashed out, but nobody publishes how much is kept.** Roblox creators earned $1.5 billion in 2025 through its cash-out program, and "do not always seek to receive fiat currency payouts" ([Roblox 10-K](https://www.sec.gov/Archives/edgar/data/1315098/000131509826000024/rblx-20251231.htm)). Cash-out requires at least 30,000 earned Robux ([Roblox](https://create.roblox.com/docs/production/monetization/developer-exchange)). The share kept is the same missing number as for bitcoin earners.
+- **Earners pay to get their money sooner.** In 2022, 7.2 million US workers used employer-linked early-pay products, and 96.6% of their fees were for faster access ([CFPB](https://www.consumerfinance.gov/data-research/research-reports/data-spotlight-developments-in-the-paycheck-advance-market/), 2024). More than half of Lyft drivers used its instant cash-out, by Stripe's account ([Stripe](https://stripe.com/ie/newsroom/stories/lyft-and-stripe), 2017). For people living on their income, liquidity beats the form of payment.
+- **How money is framed changes how it's spent.** People given $25 described as a "bonus" spent far more of it than those given the same amount as a "rebate" ([Phys.org on Epley, Mak and Idson](https://phys.org/news/2008-02-tax-rebates-bonuses.html)). Loyalty points are hoarded: about a third go unredeemed, and in one retail panel only 3% of purchases used points ([Advanced Management on Stourm et al.](https://advancedmanagement.net/perspectives/2017/08/why-consumers-stockpile-rather-spend-loyalty-program-points)). Gift cards go unspent too: 47% of US adults hold at least one ([PBS](https://www.pbs.org/newshour/economy/forget-to-spend-an-old-gift-card-heres-what-happens-to-that-money)).
+- **Big numbers make people underspend.** When a foreign currency's face value is a multiple of the home currency, people value products closer to the number on the note ([Raghubir and Srivastava](https://econpapers.repec.org/RePEc:oup:jconrs:v:29:y:2002:i:3:p:335-47), 2002). Amounts in sats might have the same effect *[assumption: untested for bitcoin]*.
 
 ## Sizing
 
@@ -238,7 +247,7 @@ Following Liz Sanders' framework, weighting what people **do** and **make** over
 
 **Local loops:** [Business Daily on Kibera](https://www.businessdailyafrica.com/bd/markets/currencies/bitcoin-revolution-steadily-shaping-trade-in-kibera-5307718) · [Blink weekly brief, May 2026](https://blink.sv/blog/weekly-brief-2026-19) · [Blink weekly brief, December 2025](https://www.blink.sv/blog/weekly-brief-50-2025) · [Bitcoin Magazine on Bitcoin Ekasi](https://bitcoinmagazine.com/culture/bitcoin-ekasi-township-one-year-later) · [Bitcoin News on Bitcoin Jungle](https://bitcoinnews.com/p/bitcoin-jungle-richard-scotford) · [Blink: payments from Europe to Kenya](https://blink.sv/blog/bitcoin-lightning-payments-europe-to-kenya-with-blink-eu) · [Blink: M-Pesa numbers as Lightning addresses](https://blink.sv/blog/40-million-kenyans-now-have-a-bitcoin-lightning-address) · [Crypto Briefing on Tando](https://cryptobriefing.com/bitcoin-lightning-payments-kenya-tando/)
 
-**El Salvador:** [Decrypt on the law amendment](https://decrypt.co/303626/el-salvador-bitcoin-law-amendment-imf-loan) · [El Heraldo on the IUDOP poll](https://www.elheraldo.hn/mundo/uso-del-bitcoin-salvador-alcanza-nivel-mas-bajo-2024-CF23621470) · [The Block on the household study](https://www.theblock.co/post/144927/everyday-bitcoin-usage-in-el-salvador-remains-low-despite-government-push-us-academic-study-finds) · [Crypto Briefing on El Zonte](https://cryptobriefing.com/bitcoin-usage-declines-in-el-zonte-as-card-payments-rise/) · [El Salvador in English on El Zonte](https://elsalvadorinenglish.com/2025/11/11/el-salvadors-bitcoin-beach-sees-30-sales-growth/)
+**El Salvador:** [Decrypt on the law amendment](https://decrypt.co/303626/el-salvador-bitcoin-law-amendment-imf-loan) · [El Heraldo on the IUDOP poll](https://www.elheraldo.hn/mundo/uso-del-bitcoin-salvador-alcanza-nivel-mas-bajo-2024-CF23621470) · [Alvarez, Argente and Van Patten: Bitcoin as legal tender in El Salvador](https://www.davidargente.com/_files/ugd/b05023_7825615207654784864b4c4cc4ec6550.pdf) · [The Block on the household study](https://www.theblock.co/post/144927/everyday-bitcoin-usage-in-el-salvador-remains-low-despite-government-push-us-academic-study-finds) · [Crypto Briefing on El Zonte](https://cryptobriefing.com/bitcoin-usage-declines-in-el-zonte-as-card-payments-rise/) · [El Salvador in English on El Zonte](https://elsalvadorinenglish.com/2025/11/11/el-salvadors-bitcoin-beach-sees-30-sales-growth/)
 
 **Africa and Latin America:** [Chainalysis on Sub-Saharan Africa](https://www.chainalysis.com/blog/subsaharan-africa-crypto-adoption-2025/) · [Chainalysis on Latin America](https://www.chainalysis.com/blog/latin-america-crypto-adoption-2025/) · [Mercado on Bitso's data](https://mercado.com.ar/tendencias/bitso-stablecoins-dominan-compra-y-bitcoin-crece-en-carteras-durante-2025) · [iProfesional on Argentine freelancers](https://www.iprofesional.com/economia/426669-fin-cepo-revelan-que-stablecoins-ganan-terreno-entre-freelancers-empresas)
 

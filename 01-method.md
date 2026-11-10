@@ -1,6 +1,6 @@
 # Method
 
-*How the research in this library is done and written up. Last updated November 8, 2026.*
+*How the research in this library is done and written up. Last updated November 10, 2026.*
 
 ## Principles
 
@@ -38,7 +38,7 @@ Liz Sanders' framework for what to look at:
 8. **Open questions:** what a deep dive would need to answer.
 9. **Sources.**
 
-**Deep dive** (a full document), following the community-driven economies file: thesis, definitions, why existing payments fail, case studies, sizing, what could serve this and the trade-offs for self-custodial, client-side products, risks and open questions, a say/do/make research plan, sources. Product-specific strategy is written separately.
+**Deep dive** (a full document), following the community-driven economies file: thesis, definitions, why existing payments fail, case studies, lessons from elsewhere (how other industries solved a similar problem, and what transfers), sizing, key assumptions, what could serve this and the trade-offs for self-custodial, client-side products, risks and open questions, a say/do/make research plan, sources. Product-specific strategy is written separately.
 
 ## Evidence labels
 

@@ -1,6 +1,6 @@
 # Community-driven economies
 
-*Deep dive, first draft. Last updated November 9, 2026.*
+*Deep dive, first draft. Last updated November 10, 2026.*
 
 ## Thesis
 
@@ -111,6 +111,14 @@ The same structures appear elsewhere. These are leads, not findings, and none ha
 **China as a warning.** Chinese fan clubs built some of the most intense fan fundraising anywhere, then met a government crackdown: [Weibo banned a BTS fan account for illegal fundraising](https://www.bloomberg.com/news/articles/2021-09-06/china-s-weibo-bans-bts-fan-account-for-illegal-fundraising), and [minors were barred from funding celebrities](https://yicaiglobal.com/news/china-bans-minors-from-economically-support-celebrities-in-efforts-to-tighten-fandom-rules). Background: [Pandaily on China's fan economy](https://pandaily.com/?p=7653).
 
 **The common thread:** money that is social, ritual or expressive. Banks and fintech handle it badly because they treat every payment as a neutral transfer.
+
+## Lessons from elsewhere
+
+Other industries have tackled trust in pooled money; what they did, and what transfers:
+
+- **Release only when the goal is met.** Kickstarter's all-or-nothing rule shifts risk to the organizer and works as a signal of quality ([Cumming, Leboeuf and Schwienbacher](https://research.birmingham.ac.uk/en/publications/crowdfunding-models-keep-it-all-vs-all-or-nothing), 2020). It doesn't solve delivery: in a 2015 study with Wharton, almost one in ten funded projects failed to deliver rewards ([CNBC](https://www.cnbc.com/2015/12/10/9-percent-kickstarter-projects-fail-to-deliver.html)), and backers of failed projects got refunds only 13% of the time ([ICv2](https://icv2.com/articles/news/view/33231/kickstarter-study-reveals-failure-rate)). Bitcoin contracts can express a release condition; they can't guarantee delivery.
+- **A central party carries the risk.** GoFundMe's guarantee refunds donors up to $1,000 when a campaign is misused, and the company says misuse affects "less than one tenth of one percent" of campaigns ([GoFundMe](https://www.newswire.ca/news-releases/gofundme-launches-first-and-only-guarantee-in-industry-595840461.html), 2016). Digital savings-circle apps replace social pressure with credit checks and binding contracts ([e-MFP](https://www.e-mfp.eu/blog/when-fintech-meets-traditional-informal-financial-schemes-recent-trends-innovations-digitising), 2024). A tool that never holds money can't offer either; it has to rely on transparency and reputation instead, and whether people accept that is untested.
+- **The ledger is the product; payment is a step.** Splitwise tracks who owes whom and hands settling up to PayPal or Venmo ([Splitwise](https://kb.splitwise.com/payment-integrations/how-do-i-send-money-via-paypal-or-venmo)). A third of Americans in a PayPal-commissioned survey had trouble getting money back from friends ([PayPal](https://newsroom.paypal-corp.com/2024-07-24-Owed-Money-Youre-Not-Alone-Heres-How-to-Ask-For-It-Back-Politely), 2024). That supports the finding that bookkeeping, not the transfer, is the pain, and suggests bitcoin could be one way to settle up rather than the product itself.
 
 ## Sizing
 

@@ -1,6 +1,6 @@
 # Dollars and bitcoin
 
-*Deep dive, first draft. Builds on the November 9 quick scan and its claims check. Desk research only. Last updated November 10, 2026 (Boltz's suspension added).*
+*Deep dive, first draft. Builds on the November 9 quick scan and its claims check. Desk research only. Last updated November 10, 2026.*
 
 ## Thesis
 
@@ -132,6 +132,15 @@ Electronics traders in Lagos's Computer Village pay suppliers in Guangzhou in un
 **Interoperability:** dollars on different bitcoin layers don't move directly between each other. Getting from one to another means swapping through bitcoin or through a service. Several of the new rails are backed by Tether's USDT0, which in principle connects to USDT on Tron through Tether's own bridges ([CryptoSlate](https://cryptoslate.com/tether-introduces-bridge-free-multichain-liquidity-for-legacy-usdt-networks/)).
 
 *Several rail descriptions come from Spark's research and comparison pages; Spark builds a competing layer.*
+
+## Lessons from elsewhere
+
+How people live with two currencies, from multi-currency accounts, dual-currency economies, loyalty points and games:
+
+- **Separate balances, explicit conversion.** Wise lets customers hold "as many different currencies" as they like in separate balances, converted at the mid-market rate ([Wise](https://wise.com/help/articles/2897226/what-are-balances)). No published research says whether this confuses people.
+- **Each currency gets a role.** In Cambodia, the riel "is used only for small transactions worth less than about five dollars in urban areas," and change from dollar payments is given in riel ([JICA](https://www.jica.go.jp/english/jica_ri/news/interview/2013/jica-ri_focus_vol26.html), 2014). Lebanese supermarkets switched to dollar prices to stop price manipulation and display the exchange rate, with a time stamp, next to the price ([The National](https://www.thenationalnews.com/mena/lebanon/2023/03/01/dollars-or-pounds-lebanons-supermarkets-begin-pricing-goods-in-dollars), 2023). Zimbabwe requires shops to show prices in both currencies ([Insider Zimbabwe](https://insiderzim.com/why-zimbabwe-requires-businesses-to-display-prices-in-zim-and-us-dollars/), 2020). Showing two currencies is normal; the question is which one sets the price.
+- **A second unit gets hoarded, and distrusted when it changes value.** About a third of US loyalty rewards go unredeemed ([Advanced Management on Stourm et al.](https://advancedmanagement.net/perspectives/2017/08/why-consumers-stockpile-rather-spend-loyalty-program-points)), and US regulators are investigating airlines for devaluing earned points ([AirlineGeeks](https://airlinegeeks.com/2024/09/06/dot-probe-investigates-four-largest-airline-rewards-programs/), 2024).
+- **Regulators want the real price visible.** EU consumer authorities' 2025 principles say the price of in-game content "should be clearly indicated in real-world money," and traders "should not obscure the cost" ([Linklaters](https://techinsights.linklaters.com/post/102k6t4/game-changer-eu-introduces-consumer-protection-guidance-for-in-game-virtual-curr)). Cryptocurrencies are out of their scope, but the principle of showing a local-currency equivalent next to a bitcoin amount points the same way.
 
 ## Sizing
 

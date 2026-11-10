@@ -119,6 +119,16 @@ The evidence is strongest for the first two.
 
 **What it shows:** the US moved toward leaving self-custody alone in 2025–2026; international standards and the EU keep pressure on the points where self-custodied bitcoin meets an exchange.
 
+## Lessons from elsewhere
+
+Do people keep using a tool after the crisis that drove them to it? Messaging apps, VPNs and cash suggest a pattern:
+
+- **Spike, fall, then a higher floor.** After WhatsApp's privacy-policy change in January 2021, Signal's installs grew 5,001% year over year to 50.6 million, fell 86% the next month, and by April were still more than double the year before ([Sensor Tower](https://sensortower.com/blog/whatsapp-signal-telegram-install-growth), 2021). WhatsApp kept its users: people added a tool rather than switching ([Fortune, citing Apptopia](https://fortune.com/2021/02/02/signal-telegram-downloads-surge-facebook-messenger-whatsapp-chat-apps-privacy/)).
+- **Use stays high while the block lasts.** VPN demand in Russia peaked at 2,692% above normal in March 2022 and was still 243% above normal at the end of the month; in Myanmar, demand was 464% higher a year after the coup, with Facebook still blocked ([Top10VPN](https://www.top10vpn.com/research/vpn-demand-statistics/)). *Top10VPN reviews VPNs commercially.*
+- **Precautionary money stays put.** Euro banknotes issued in the COVID surge were still largely in circulation a year later; issuance in countries next to Ukraine rose 36% and leveled off after about three weeks ([ECB](https://www.ecb.europa.eu/press/economic-bulletin/articles/2025/html/ecb.ebart202506_02~1a773e2ca3.en.html), 2025). In Lebanon, the cash economy grew to 45.7% of GDP in 2022 after confidence in banks collapsed ([The New Arab, citing the World Bank](https://newarab.com/news/lebanons-tanking-economy-cash-based-world-bank)).
+
+**What it suggests:** the right measure of crisis demand is use months later compared with the year before, not the spike. Money held as a precaution is kept, not spent, which fits bitcoin as savings more than bitcoin for payments. Pressure on the tool itself, such as blocking VPNs or removing apps, cuts use too.
+
 ## Sizing
 
 | Case | Amount | Source |

@@ -1,8 +1,8 @@
 # Auto-research
 
-*Cross-cutting plan: where AI agents could do research work in this library, a one-page pilot to test it, and its results. First pilot run November 9, 2026. Last updated November 9, 2026.*
+*Cross-cutting plan: where AI agents could do research work in this library, a one-page pilot to test it, and its results. First pilot run November 9, 2026. Last updated November 10, 2026.*
 
-Auto-research works best when progress fits in one number and a cheap test can measure it: propose a change, measure it, keep it if it's better, repeat. Compressing signatures is a good fit, because "smaller output, still secure" can be checked automatically. *[to verify: public source for an example of this]* A research library is a poor fit for that loop as a whole, because its real output is judgment, and no test can score judgment. The layer underneath the judgment is different: claims, numbers, sources and labels can be checked. This page proposes letting agents work on that layer, while people keep the conclusions.
+Auto-research works best when progress fits in one number and a cheap test can measure it: propose a change, measure it, keep it if it's better, repeat. Cryptanalysis is a good fit: in Yukon's [HashSmash](https://www.yukon.org/hashsmash) challenge, AI agents compete to find cheaper collision attacks on reduced-round hash functions, and each submission's cost is scored automatically. A research library is a poor fit for that loop as a whole, because its real output is judgment, and no test can score judgment. The layer underneath the judgment is different: claims, numbers, sources and labels can be checked. This page proposes letting agents work on that layer, while people keep the conclusions.
 
 ## What fits, and what doesn't
 

@@ -92,6 +92,17 @@ AI agents need small, programmable payments, which Lightning was built for. Yet 
 
 **What it shows:** agents with spending power get attacked, and they also make mistakes. Limits have to hold even when the agent is fooled.
 
+## Lessons from elsewhere
+
+People already let others spend their money: children, employees, carers, and companies that bill them automatically. What makes that comfortable:
+
+- **A separate, capped pot.** Santander's Carers Card is a separate account the customer tops up, capped at £1,500, with gambling blocked and spending visible to the account holder ([Santander](https://santander.co.uk/about-santander/media-centre/press-releases/santander-launches-carers-card-account-giving-carers), 2020). Monzo's accounts for under-16s split roles: only the main holder can set limits and move money, while other family members can watch and freeze the card ([Monzo](https://monzo.com/ie/help/under-16s-accounts-parent/help-family-controls)).
+- **A guarantee.** UK Direct Debit reached a record 5 billion transactions in 2025, and the Direct Debit Guarantee is a main reason for 51% of people who view it positively ([Pay.UK](https://www.wearepay.uk/direct-debit-hits-record-5-billion-transactions-in-2025-retaining-its-place-as-the-uks-go-to-for-recurring-payments/), 2026). Self-custodial setups have no equivalent unless a provider offers one.
+- **Rules applied at the moment of payment.** On Ramp's corporate cards, the rate of out-of-policy spending "drops by 62%" over two years as employees learn the rules from declined payments ([Ramp](https://ramp.com/blog/the-ramp-effect-out-of-policy-spend-declines-on-ramp), 2026, company data). More than half of workplace fraud cases happen because controls are missing or overridden ([Legal 500 on the ACFE's 2024 report](https://www.legal500.com/intelligence/canada/criminal-law/the-cost-of-occupational-fraud-from-the-2024-acfe-report)).
+- **Once it's comfortable, people stop watching.** Customers who paid their electricity bills by autopay used 4–6% more power, in 16 years of utility records, because the cost became less visible ([Duke](https://today.duke.edu/2015/04/autopay), 2015). In a survey of 2,000 US parents, 23% rarely or never checked their children's card activity, and 31% said their children had bought something online without permission ([Scripps News](https://www.scrippsnews.com/life/money/survey-nearly-1-in-3-parents-say-kids-made-online-purchases-without-permission), 2025).
+
+**What it suggests:** comfort comes less from limit settings than from a separate pot, recourse when something goes wrong, and limits enforced before a payment. The same comfort can make people stop paying attention.
+
 ## Sizing
 
 | Measure | Figure | Source |
