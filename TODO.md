@@ -20,7 +20,7 @@
 - [ ] **2. Existing gifting tools:** Lightning gift links, ecash tokens (Cashu), bitcoin gift cards and vouchers. What exists, what works, what doesn't.
     - Include [HongBao](https://hongbaob.tc): physical red envelopes with printed on-chain paper wallets, designed for bitcoiners gifting to family ("Gift Bitcoin = Teach Bitcoin"). Open source, "used by 81 Bitcoiners" (November 2026).
 - [ ] **3. Network effects behind red envelopes:** how much of WeChat's success came from its existing network, and what that means for gifts sent across borders through other apps.
-- [ ] **4. Add a "Key assumptions" section** to each deep dive (11, 16; 12 and 14 have one): what has to be true for the thesis to hold.
+- [ ] **4. Add a "Key assumptions" section** to each deep dive (11, 16; 12, 14 and 15 have one): what has to be true for the thesis to hold.
 - [ ] **5. Replace weak sources with originals** where numbers carry weight: the BIS working paper on stablecoin inflows, a16z's State of Crypto, the Visa and Dune non-dollar report, Spiral's 2022 survey details.
 - [ ] **6. Flag competitor-authored sources:** Spark's research pages are cited several times; note their perspective, and find independent sources where possible.
 - [ ] **7. Fix say-versus-do comparisons** that compare different populations (Oobit employees versus Pantera's crypto-paid respondents; Deel 2022 versus Pantera 2024).
@@ -46,6 +46,7 @@
 - [ ] Status of the US de minimis tax exemption (S.2207) since August 2026 (area 12).
 - [ ] Strike's paycheck-to-bitcoin fees and whether Deel still offers bitcoin withdrawals (area 12).
 - [ ] USDT on Lightning: an official Tether or Lightning Labs confirmation that it's live, and any figures on supply or volume; whether issuers can freeze Taproot Assets (area 14).
+- [ ] EU rules on self-hosted wallets: check the Transfer of Funds Regulation (transfers over €1,000) and the AML Regulation (self-hosted wallet exclusion) against their official texts; and whether UK crypto wallet freezing orders reach self-custody (area 15).
 - [ ] SSPS status and adoption (area 18).
 - [ ] Tando usage: payments to M-Pesa numbers, and how many recipients claim their addresses (area 18). **Help wanted.**
 
