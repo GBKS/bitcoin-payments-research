@@ -1,6 +1,6 @@
 # Start here: where demand for bitcoin payments could come from
 
-*A research notebook. Last updated November 10, 2026.*
+*A research notebook. Last updated November 11, 2026.*
 
 Bitcoin payment technology works better than ever, yet few people pay with bitcoin. That gap was hard to miss at conferences throughout 2026. This library asks where demand could actually come from: which people, needs and situations self-custodial bitcoin payments could serve better than anything else.
 
@@ -49,12 +49,14 @@ The list will change as research reveals new areas or merges existing ones.
 - [Landscape](02-landscape.md): context from the wider conversation, including Spiral's recent posts, payments in numbers, and key projects
 - [Stablecoins, unpacked](03-stablecoins.md): what "stablecoins" actually covers, who wants dollars and who doesn't
 - [The internet's native currency, unpacked](04-internet-native-money.md): the six claims inside "native currency of the internet": paying instead of ads, pricing spam, machine payments, paying for AI crawling, permissionless receiving, and unit of account
+- [Where bitcoin is paid today](05-where-bitcoin-is-paid.md): a baseline of observed payments (Lightning, processors, gambling and gray markets, lost uses, what holders do), with one table of sizes across the library
 - `11`–`18`: one file per area, each now a first-draft deep dive
 - [Group orders: a teardown of what managers built](11a-group-orders-teardown.md) and [Group orders: research kit](11b-group-orders-research-kit.md): the first direct research for area 11
 - [Auto-research](90-auto-research.md): where AI agents could check claims and keep numbers current, and a one-page pilot to test it
 
 ## Log
 
+- **November 11, 2026:** review pass with a second model. Corrected the Deel bitcoin-pay figure (Earning in bitcoin), x402's adjusted volume (Agentic payments), Tempo's usage (Stablecoins, unpacked), the year of WeChat's Gala promotion (Payments that feel different) and Speed's date (Dollars and bitcoin); added Wapu Pay in Argentina (Last-mile infrastructure) and Phoenix's return to the US (Money that can't be frozen). New foundation page, first draft: where bitcoin is paid today.
 - **November 10, 2026:** deep dives on dollars and bitcoin, money that can't be frozen, agentic payments, last-mile infrastructure, and brand and culture. Boltz's suspension added to Dollars and bitcoin and Stablecoins, unpacked; Square's merchant count reconciled in Landscape. Working thesis and lessons revised from all deep dives. New foundation page: the internet's native currency, unpacked. "Lessons from elsewhere" added to areas 11–15 and 18. El Salvador household survey (Alvarez, Argente and Van Patten) added to Landscape, Earning in bitcoin and Last-mile infrastructure, found via the Bitcoin Design Guide's design research list.
 - **November 9, 2026:** deep dive on earning in bitcoin. Auto-research pilot on Dollars and bitcoin; site published.
 - **November 8, 2026:** stablecoins page. Deep dive on payments that feel different (gifting and expression). Group orders teardown and research kit. Quick scans of all areas (12–18). Library set up; method and landscape drafted; community-driven economies added.

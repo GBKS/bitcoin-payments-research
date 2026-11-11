@@ -8,6 +8,7 @@
     - { file: 02-landscape.md, title: Landscape }
     - { file: 03-stablecoins.md, title: "Stablecoins, unpacked" }
     - { file: 04-internet-native-money.md, title: "The internet's native currency" }
+    - { file: 05-where-bitcoin-is-paid.md, title: Where bitcoin is paid today }
 - section: Research areas
   items:
     - { file: 11-community-driven-economies.md, number: "11", title: Community-driven economies }

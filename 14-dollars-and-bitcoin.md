@@ -1,6 +1,6 @@
 # Dollars and bitcoin
 
-*Deep dive, first draft. Builds on the November 9 quick scan and its claims check. Desk research only. Last updated November 10, 2026.*
+*Deep dive, first draft. Builds on the November 9 quick scan and its claims check. Desk research only. Last updated November 11, 2026.*
 
 ## Thesis
 
@@ -101,7 +101,7 @@ Electronics traders in Lagos's Computer Village pay suppliers in Guangzhou in un
 | Blink | Dollar Balance: Stablesats (a synthetic dollar held through derivatives) in custodial mode; USDB, a stablecoin issued by Brale on Spark, in non-custodial mode | Both | Stablesats 2022; non-custodial accounts June 2026 |
 | Wallets on the Breez SDK (Glow, Blitz) | "Stable balance": received sats convert to USDB above a threshold, and back to sats when paying | Self-custodial | 2026 |
 | Wallet of Satoshi | Stablecoins in its new version, reportedly USDB on Spark | Disputed in reports | Beta July 2026, switched on September |
-| Speed | USDT on Lightning through Taproot Assets | Custodial bridge | 2024 |
+| Speed | USDT on Lightning through Taproot Assets | Custodial bridge | *[to verify: no source gives a date; USDT on Lightning went live in March 2026]* |
 | Aqua | USDT on Liquid next to bitcoin, Liquid and Lightning | Self-custodial | 2023 *[from memory]* |
 
 - Blink offers a Dollar Balance, custodial through Stablesats or non-custodial with supported stablecoins ([Blink](https://www.blink.sv/en/dollar-balance)); in non-custodial mode it holds USDB on Spark ([Blink FAQ](https://faq.blink.sv/llms-full.txt)), and Blink calls Spark "trust-minimized, not trustless" ([Blink](https://blink.sv/blog/non-custodial-accounts-in-blink-wallet), June 2026).

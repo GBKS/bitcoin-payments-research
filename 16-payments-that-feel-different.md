@@ -1,6 +1,6 @@
 # Payments that feel different
 
-*Deep dive, first draft, focused on gifting and payments as expression. Builds on the November 8 quick scan. Last updated November 8, 2026.*
+*Deep dive, first draft, focused on gifting and payments as expression. Builds on the November 8 quick scan. Last updated November 11, 2026.*
 
 ## Thesis
 
@@ -36,7 +36,7 @@ Area 11 covers collective payments (pooling toward a goal). This area covers pay
 
 ### WeChat red envelopes: a ritual that built a payment system
 
-- WeChat launched red envelopes on January 17, 2014. Group envelopes split a set sum randomly among recipients. During the 2014 Spring Festival Gala promotion, 1.2 billion envelopes went out. Because sending or receiving needed a linked bank account, an estimated 100–200 million people added bank details, and WeChat Pay reportedly more than doubled its market share ([Wikipedia](https://en.wikipedia.org/wiki/WeChat_red_envelope)).
+- WeChat launched red envelopes on January 17, 2014. Group envelopes split a set sum randomly among recipients. During its Spring Festival Gala promotion, 1.2 billion envelopes worth over 500 million yuan went out ([Wikipedia](https://en.wikipedia.org/wiki/WeChat_red_envelope)). Wikipedia dates the promotion to 2014, but the same 500 million yuan was reported for the February 2015 Gala, when users shook their phones 11 billion times ([TechNode](https://technode.com/2015/02/27/wechat-payment-clear-winner-in-tencent-alibaba-digital-lucky-money-war/)). *[to verify: the year and the envelope count, against a primary source]* Because sending or receiving needed a linked bank account, an estimated 100–200 million people added bank details, a figure TechNode calls a rumor that WeChat didn't confirm, and WeChat Pay reportedly more than doubled its market share ([Wikipedia](https://en.wikipedia.org/wiki/WeChat_red_envelope)).
 - **Gifts are contagious.** A study of 36.6 million red packets in 174,131 WeChat groups (about 3.45 million users, October 2015 to February 2016) used the random amounts as a natural experiment. Each extra dollar received led recipients to send about 18 cents back to the group within 24 hours, mostly because more people chose to send at all. The "luckiest draw" recipient was much more likely to send the next packet, suggesting a group norm. Gifts also created new connections within groups ([Yuan et al., arXiv](https://arxiv.org/pdf/1906.09698)).
 
 **What it teaches:** the random split turned giving into a game, the group made it visible, and the norm ("the luckiest sends next") kept it going. Payment adoption was a side effect.
@@ -82,7 +82,7 @@ There's no single number, but the scale signals are clear:
 | Signal | Scale | Source |
 | --- | --- | --- |
 | KakaoTalk Gift, 2025 | ~189 million gifts, ~540,000 a day | Korea Times |
-| WeChat red envelopes, 2014 Spring Festival Gala promotion | 1.2 billion envelopes | Wikipedia |
+| WeChat red envelopes, Spring Festival Gala promotion (2015; Wikipedia says 2014) | 1.2 billion envelopes | Wikipedia, TechNode |
 | WeChat red packets studied, 2015–16 | 36.6 million packets in 174,131 groups | Yuan et al. |
 | Nostr zaps, first months (2023) | 142,000 transactions | CriptoNoticias |
 
@@ -140,6 +140,7 @@ The gap between the first three rows and the last is the opportunity: the behavi
 ## Sources
 
 - [Wikipedia: WeChat red envelope](https://en.wikipedia.org/wiki/WeChat_red_envelope)
+- [TechNode on WeChat's 2015 Spring Festival Gala campaign](https://technode.com/2015/02/27/wechat-payment-clear-winner-in-tencent-alibaba-digital-lucky-money-war/)
 - [Yuan et al.: Gift Contagion in Online Groups: Evidence from Virtual Red Packets](https://arxiv.org/pdf/1906.09698)
 - [Korea Times on KakaoTalk Gift in 2025](https://www.koreatimes.co.kr/business/companies/20251225/kakaotalk-gifting-service-used-nearly-200-mil-times-this-year)
 - [Herald Corp on KakaoTalk's gifting home screen](https://biz.heraldcorp.com/article/10777049)

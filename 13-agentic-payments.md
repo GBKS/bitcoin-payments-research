@@ -1,13 +1,13 @@
 # Agentic payments
 
-*Deep dive, first draft. Builds on the November 8 quick scan. Desk research only. Last updated November 10, 2026.*
+*Deep dive, first draft. Builds on the November 8 quick scan. Desk research only. Last updated November 11, 2026.*
 
 ## Thesis
 
 AI agents need small, programmable payments, which Lightning was built for. Yet the first agent payment tools settle mostly in stablecoins, and the evidence below shows a market much smaller than its forecasts:
 
 - **What's real today is machines paying for APIs, in fractions of a dollar.** Agent payments average about $0.48, 76% are below the card networks' $0.30 fee floor, and 98.6% settle in USDC.
-- **Measured volume is tiny.** Coinbase's x402, the most used protocol, has moved about $15–19 million in its lifetime once wash and test traffic is removed. Forecasts speak of hundreds of billions to trillions by 2030.
+- **Measured volume is tiny.** Coinbase's x402, the most used protocol, had moved about $15 million in its lifetime by April 2026, once wash and test traffic is removed. Forecasts speak of hundreds of billions to trillions by 2030.
 - **People act on AI recommendations but don't let AI pay.** Majorities refuse unapproved agent spending, and OpenAI moved checkout out of ChatGPT's main chat and back to merchants' own apps and sites.
 - **Self-custody removes the safety net.** Card and payment-law protections depend on an intermediary. With a self-custodial agent wallet, the only limits are technical ones.
 
@@ -59,9 +59,9 @@ AI agents need small, programmable payments, which Lightning was built for. Yet 
 
 ### x402: the most used protocol, and how much of it is real
 
-- **Raw versus adjusted.** Of about 178 million x402 transactions and $135.7 million in raw volume, about $15 million remained once wash, test and internal activity was removed, by Visa and Artemis's count as of April 2026; about 5,300 sellers had ever been paid. The filter's thresholds aren't published ([Daniel McGlynn](https://www.danielmcglynn.com/the-x402-counter-has-shown-the-same-four-numbers-since-march/), September 2026).
+- **Raw versus adjusted.** Of about 178 million x402 transactions and $135.7 million in raw volume, about 110 million transactions and $15 million remained once wash, test and internal activity was removed, by Visa and Artemis's count as of April 2026; about 5,300 sellers had ever been paid. The filter's thresholds aren't published ([Daniel McGlynn](https://www.danielmcglynn.com/the-x402-counter-has-shown-the-same-four-numbers-since-march/), September 2026).
 - **Concentrated and gamed.** On one dataset, "gamed" transactions averaged 64% of all x402 transactions from November 2025 to February 2026 ([Four Pillars, citing Artemis](https://research.4pillars.io/en/research/x402-on-polygon-real-or-gamed)).
-- **Falling, then smaller and steadier.** About 99% of x402 payments are in USDC ([Spiral report](https://github.com/spiralxyz/bitcoin-payments)). One analysis counts more than 50 million cumulative x402 transactions, but daily volume fell 92%, from a peak of about 731,000 in December 2025 to about 57,000 ([Agentic Terminal](https://agenticterminal.substack.com/p/the-agentic-settlement-wars)). Adjusted monthly volume fell 77% from November 2025 to $1.19 million in May 2026, while transactions rebounded, at an average of $0.52 each ([CryptoSlate, citing Artemis](https://cryptoslate.com/?p=538356)).
+- **Falling, then smaller and steadier.** About 99% of x402 payments are in USDC ([Spiral report](https://github.com/spiralxyz/bitcoin-payments)). An earlier analysis counted more than 50 million cumulative x402 transactions, with daily transactions down 92%, from a peak of about 731,000 in December 2025 to about 57,000 ([Agentic Terminal](https://agenticterminal.substack.com/p/the-agentic-settlement-wars), February 2026). It doesn't name its dataset, so its count can't be compared with Visa and Artemis's. Adjusted monthly volume fell 77% from November 2025 to $1.19 million in May 2026, while transactions rebounded, at an average of $0.52 each ([CryptoSlate, citing Artemis](https://cryptoslate.com/?p=538356)).
 - **Institutional backing anyway.** The x402 Foundation launched under the Linux Foundation in April 2026, with members including AWS, American Express, Cloudflare, Coinbase, Google, Mastercard, Shopify, Stripe and Visa ([Coinbase docs](https://docs.cdp.coinbase.com/x402/support/x402-foundation)).
 
 **What it shows:** a standard with heavyweight support and real but small usage, inflated early by speculation. The payments are for API calls and data, not shopping.
@@ -107,7 +107,7 @@ People already let others spend their money: children, employees, carers, and co
 
 | Measure | Figure | Source |
 | --- | --- | --- |
-| x402, lifetime, adjusted | about $15–19 million | [McGlynn](https://www.danielmcglynn.com/the-x402-counter-has-shown-the-same-four-numbers-since-march/) |
+| x402, lifetime to April 2026, adjusted | about $15 million | [McGlynn](https://www.danielmcglynn.com/the-x402-counter-has-shown-the-same-four-numbers-since-march/) |
 | Agent payments on-chain, May 2025–April 2026 | about 176 million payments, over $73 million, 98.6% in USDC, average about $0.48 | [Bitcoin.com News on Keyrock](https://news.bitcoin.com/keyrock-report-76-of-ai-agent-transactions-fall-below-visas-0-30-fee-floor/) |
 | Stripe MPP, first 33 days | about $25,000 | [Forkast](https://forkast.news/visa-artemis-the-0-14-reality-of-agent-commerce/) |
 | Card-network agent payments | "hundreds" of transactions | [C9 Group](https://c9group.dev/en/articles/agentic-payments-visa-mastercard-stripe-ai-agents) |

@@ -1,6 +1,6 @@
 # To do
 
-*Open work on this research library. Items marked **help wanted** are good places for others to contribute. Last updated November 10, 2026.*
+*Open work on this research library. Items marked **help wanted** are good places for others to contribute. Last updated November 11, 2026.*
 
 ## Research
 
@@ -42,19 +42,25 @@
 - [ ] Wallet of Satoshi's stablecoin launch: an official announcement, to replace the secondary reports (area 14).
 - [ ] Which bitcoin layers support dollar tokens: Spark, Liquid, RGB (area 3).
 - [ ] Trails Coffee and BitTasker details (area 12; sites couldn't be opened). **Help wanted.**
+- [ ] WeChat's Spring Festival Gala promotion: the year (2014 or 2015) and the 1.2 billion envelope count, against a primary source (area 16).
+- [ ] Deel's 2022 survey: whether 47% paid in bitcoin is among workers taking crypto pay or all workers (area 12).
+- [ ] When Speed added USDT on Lightning (area 14).
+- [ ] River's 2026 Lightning figures ($1.17 billion, 5.22 million transactions, data providers): check against the PDF by eye, since they were read from page images (page 05).
+- [ ] Purse's 2023 wind-down: the announcement and its stated reasons (page 05).
 - [ ] Current volumes for Nostr zaps and value-for-value podcasting (area 16). **Help wanted.**
 - [ ] Status of the US de minimis tax exemption (S.2207) since August 2026 (area 12).
 - [ ] Strike's paycheck-to-bitcoin fees and whether Deel still offers bitcoin withdrawals (area 12).
 - [ ] USDT on Lightning: an official Tether or Lightning Labs confirmation that it's live, and any figures on supply or volume; whether issuers can freeze Taproot Assets (area 14).
 - [ ] EU rules on self-hosted wallets: check the Transfer of Funds Regulation (transfers over €1,000) and the AML Regulation (self-hosted wallet exclusion) against their official texts; and whether UK crypto wallet freezing orders reach self-custody (area 15).
 - [ ] 402 Index counts: why L402 and x402 endpoint numbers changed sharply between October and November 2026, and any published L402 payment volume (area 13).
-- [ ] A route from Lightning to Korean won (and to Pix keys and Argentine QR codes) beyond prototypes; whether Boltz has restarted (area 18).
+- [ ] A route from Lightning to Korean won (and to Pix keys) beyond prototypes; which Argentine QR codes Wapu Pay reaches and who holds the balance; whether Boltz has restarted (area 18).
 - [ ] Spiral's 2022 report on how women view bitcoin is no longer online: find an archived copy and recheck the figures (area 17).
 - [ ] Cloudflare's NET Dollar: has it launched, and does the Monetization Gateway use it? Also its Q2 2026 statement that over half of traffic is not human (page 04).
 - [ ] Tando usage: payments to M-Pesa numbers, and how many recipients claim their addresses (area 18). **Help wanted.**
 
 ## Maintenance
 
+- [ ] **Recheck page 05 by hand** and write its claims list; it was drafted by agents and not yet audited.
 - [ ] **Review pass:** consistency between files, unlabeled claims, numbers that don't match across files.
 - [ ] **Check early quick scans** (12–15) against the current template (say versus do, "what could serve this").
 - [ ] **Prepare for publishing:** README, license (CC BY), contribution notes, final privacy check.

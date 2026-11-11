@@ -1,6 +1,6 @@
 # Earning in bitcoin
 
-*Deep dive, first draft. Builds on the November 8 quick scan. Desk research only. Last updated November 10, 2026.*
+*Deep dive, first draft. Builds on the November 8 quick scan. Desk research only. Last updated November 11, 2026.*
 
 ## Thesis
 
@@ -40,7 +40,7 @@ Merchant income is covered in [Last-mile infrastructure](18-last-mile-infrastruc
 - **Crypto salaries are stablecoins.** In Pantera's survey of over 1,600 people working in the blockchain industry, 9.6% were paid in crypto, a threefold jump. USDC (63%) and USDT (28.6%) made up over 90% of crypto salaries ([Pantera](https://panteracapital.com/blockchain-compensation-survey-2024/), August 2025).
 - **Payroll providers report stablecoin volume.** Over 50% of Rise worker withdrawals are taken in stablecoins ([Rise](https://www.riseworks.io/blog/q3-2026-stablecoin-payroll-report), September 2026). Deel processed $250 million in crypto payouts in 2025, and its 2026 launches are stablecoin salaries ([CPA Practice Advisor](https://www.cpapracticeadvisor.com/2026/05/26/deel-announces-stablecoin-salary-payouts-new-head-of-crypto/183971/), May 2026). Bitwage, the pioneer of bitcoin payroll, now belongs to Paystand and lists "USDC, USDT, BTC, and local currencies" ([Bitwage](https://bitwage.com/en-us/blog/bitwage-joins-paystand), November 2025).
 - **Mainstream gig platforms choose stablecoins.** DoorDash will let couriers receive earnings in stablecoins via Stripe's Tempo blockchain ([PaymentsJournal via Pulse](https://www.pulse.bot/fintech/news/doordash-to-offer-gig-workers-stablecoin-payouts-63045324-8b01-4649-ae52-06e4eb92a150/), April 2026). Nigerian gig workers prefer stablecoins to the naira for speed, fewer clawbacks and dollar savings; bitcoin comes up only as "jumpy" ([Nairametrics](https://nairametrics.com/2026/02/24/why-nigerian-gig-workers-prefer-stablecoin-payments-to-the-naira/), February 2026).
-- **Bitcoin used to be bigger in payroll.** In a 2022 Deel survey, 47% of workers received some of their pay in bitcoin ([Cointelegraph](https://cointelegraph.com/magazine/beyond-the-headlines-the-real-adoption-of-bitcoin-salaries), August 2022). Even then, Deel said Latin American workers "often convert it right away into local currency."
+- **Bitcoin used to be bigger in payroll.** In a 2022 Deel survey, 47% received some payment in bitcoin, the leading option, ahead of USDC at 29%. The article implies this is among workers who take pay in crypto, not all workers ([Cointelegraph](https://cointelegraph.com/magazine/beyond-the-headlines-the-real-adoption-of-bitcoin-salaries), August 2022). *[to verify: the denominator, against Deel's own report]* Even then, Deel said Latin American workers "often convert it right away into local currency."
 
 **A caution on the comparison:** these are different populations. Oobit asked ordinary employees what they'd like; Pantera asked people already working in crypto what they get. The gap between them is suggestive, not a measured say-do gap for the same people. *(See item 7 in [To do](TODO.md).)*
 

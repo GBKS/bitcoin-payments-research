@@ -1,6 +1,6 @@
 # Stablecoins, unpacked
 
-*Foundation document. "Stablecoins" is used as if it were one competitor. It isn't. Last updated November 10, 2026.*
+*Foundation document. "Stablecoins" is used as if it were one competitor. It isn't. Last updated November 11, 2026.*
 
 ## Why this page
 
@@ -49,14 +49,14 @@ So actual payments are roughly **1% of headline volume**. "Stablecoins process m
 
 - **Tron's share is falling** on some measures: from 36% of stablecoin transaction volume at the start of 2025 to 14.6% in February 2026, with Solana and Ethereum gaining, per Visa's onchain analytics ([ForkLog](https://forklog.com/en/trons-share-in-stablecoin-transactions-plummets-to-14/)).
 - **But Tron still dominated payment companies' volume** (about 60%) in Artemis's 2025 study. Different measures, different answers: Tron remains the default for emerging-market payments, while other chains grow in overall volume.
-- **New chains built for payments:** Stripe and Paradigm's Tempo launched on mainnet on March 18, 2026, with partners including Visa, Mastercard, Deutsche Bank, Shopify, OpenAI and Anthropic. No usage figures have been published ([DEV Community](https://dev.to/tomwangcn/stripe-tempo-goes-live-ai-agent-payment-rails-3306)).
+- **New chains built for payments:** Stripe and Paradigm's Tempo launched on mainnet on March 18, 2026, with partners including Visa, Mastercard, Deutsche Bank, Shopify, OpenAI and Anthropic ([DEV Community](https://dev.to/tomwangcn/stripe-tempo-goes-live-ai-agent-payment-rails-3306)). Third-party reports put its use at about 2.5 transactions a second in April 2026 ([Protos](https://protos.com/?p=122462)) and over $1 billion in stablecoin transfers in 30 days by September ([Crypto Briefing](https://cryptobriefing.com/tempo-1b-stablecoin-transfer-volume/)). Neither says how much of that is payments.
 
 ## Announced, live, used
 
 | Project | What | Status | Signs of use |
 | --- | --- | --- | --- |
 | **Open USD** | Consortium stablecoin by Open Standard, 140+ backers including Visa, Stripe, Mastercard, BlackRock, Coinbase; reserve income shared with participating businesses; fee-free minting and redemption; natively on Tempo ([The Block](https://theblock.co/post/406736/visa-stripe-coinbase-join-open-usd-stablecoin-shares-reserve-revenue)) | Announced June 2026; listed on CoinGecko by November *[to verify: launch date]* | About $0.9 billion market cap |
-| **Tempo** | Payments chain by Stripe and Paradigm | Live since March 18, 2026 | No published figures |
+| **Tempo** | Payments chain by Stripe and Paradigm | Live since March 18, 2026 | About 2.5 transactions a second in April 2026; over $1 billion in transfers in 30 days by September (third-party reports) |
 | **PayPal USD** | PayPal's stablecoin | Live | About $2.8 billion |
 | **Ripple USD, Global Dollar, USD1** | Company-issued dollar tokens | Live | About $2.7, $2.7 and $3.4 billion |
 | **JPYC** | First regulated yen stablecoin, under Japan's revised Payment Services Act, launched October 27, 2025; target ¥10 trillion in three years ([Unlock](https://unlock-bc.com/en/japan-launches-worlds-first-regulated-yen-stablecoin)) | Live | All yen stablecoins together about $236 million |
@@ -118,7 +118,7 @@ So actual payments are roughly **1% of headline volume**. "Stablecoins process m
 1. How much of the $350–550 billion in stablecoin payments is cross-border, and in which corridors?
 2. Who actually uses non-dollar stablecoins, and for what?
 3. Will Open USD's revenue sharing with businesses pull distribution away from USDT and USDC, and does it touch emerging markets at all?
-4. Does Tempo carry real payment volume yet?
+4. How much of Tempo's transfer volume is payments?
 5. In stable-currency countries, do people want a stable token at all, or just good local payment apps?
 
 ## Sources
@@ -129,6 +129,8 @@ So actual payments are roughly **1% of headline volume**. "Stablecoins process m
 - [Yahoo Finance on the Artemis report](https://finance.yahoo.com/news/tether-tron-dominate-fast-growing-140000492.html)
 - [ForkLog on Tron's falling share](https://forklog.com/en/trons-share-in-stablecoin-transactions-plummets-to-14/)
 - [DEV Community on Tempo's launch](https://dev.to/tomwangcn/stripe-tempo-goes-live-ai-agent-payment-rails-3306)
+- [Protos on Tempo's usage](https://protos.com/?p=122462)
+- [Crypto Briefing on Tempo's transfer volume](https://cryptobriefing.com/tempo-1b-stablecoin-transfer-volume/)
 - [The Block on Open USD](https://theblock.co/post/406736/visa-stripe-coinbase-join-open-usd-stablecoin-shares-reserve-revenue)
 - [Unlock on JPYC's launch](https://unlock-bc.com/en/japan-launches-worlds-first-regulated-yen-stablecoin)
 - [The Block on the Visa and Dune non-dollar stablecoin report](https://www.theblock.co/post/395038/beyond-dollarization-visa-and-dune-report-finds-non-usd-stablecoins-increasingly-being-used-as-money)
