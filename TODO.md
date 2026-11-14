@@ -1,6 +1,6 @@
 # To do
 
-*Open work on this research library. Items marked **help wanted** are good places for others to contribute. Last updated November 11, 2026.*
+*Open work on this research library. Items marked **help wanted** are good places for others to contribute. Last updated November 14, 2026.*
 
 ## Research
 
@@ -43,7 +43,6 @@
 - [ ] Which bitcoin layers support dollar tokens: Spark, Liquid, RGB (area 3).
 - [ ] Trails Coffee and BitTasker details (area 12; sites couldn't be opened). **Help wanted.**
 - [ ] WeChat's Spring Festival Gala promotion: the year (2014 or 2015) and the 1.2 billion envelope count, against a primary source (area 16).
-- [ ] Deel's 2022 survey: whether 47% paid in bitcoin is among workers taking crypto pay or all workers (area 12).
 - [ ] When Speed added USDT on Lightning (area 14).
 - [ ] River's 2026 Lightning figures ($1.17 billion, 5.22 million transactions, data providers): check against the PDF by eye, since they were read from page images (page 05).
 - [ ] Purse's 2023 wind-down: the announcement and its stated reasons (page 05).

@@ -1,6 +1,6 @@
 # Start here: where demand for bitcoin payments could come from
 
-*A research notebook. Last updated November 11, 2026.*
+*A research notebook. Last updated November 14, 2026.*
 
 Bitcoin payment technology works better than ever, yet few people pay with bitcoin. That gap was hard to miss at conferences throughout 2026. This library asks where demand could actually come from: which people, needs and situations self-custodial bitcoin payments could serve better than anything else.
 
@@ -56,6 +56,7 @@ The list will change as research reveals new areas or merges existing ones.
 
 ## Log
 
+- **November 14, 2026:** checked the Deel bitcoin figure against Deel's own H1 2022 report, after a contributor's comment on [issue 22](https://github.com/GBKS/bitcoin-payments-research/issues/22). The 47% is bitcoin's share of crypto withdrawals on Deel's platform, not of workers, and it is platform data, not a survey (Earning in bitcoin).
 - **November 11, 2026:** review pass with a second model. Corrected the Deel bitcoin-pay figure (Earning in bitcoin), x402's adjusted volume (Agentic payments), Tempo's usage (Stablecoins, unpacked), the year of WeChat's Gala promotion (Payments that feel different) and Speed's date (Dollars and bitcoin); added Wapu Pay in Argentina (Last-mile infrastructure) and Phoenix's return to the US (Money that can't be frozen). New foundation page, first draft: where bitcoin is paid today.
 - **November 10, 2026:** deep dives on dollars and bitcoin, money that can't be frozen, agentic payments, last-mile infrastructure, and brand and culture. Boltz's suspension added to Dollars and bitcoin and Stablecoins, unpacked; Square's merchant count reconciled in Landscape. Working thesis and lessons revised from all deep dives. New foundation page: the internet's native currency, unpacked. "Lessons from elsewhere" added to areas 11–15 and 18. El Salvador household survey (Alvarez, Argente and Van Patten) added to Landscape, Earning in bitcoin and Last-mile infrastructure, found via the Bitcoin Design Guide's design research list.
 - **November 9, 2026:** deep dive on earning in bitcoin. Auto-research pilot on Dollars and bitcoin; site published.
