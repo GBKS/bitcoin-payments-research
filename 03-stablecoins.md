@@ -1,6 +1,6 @@
 # Stablecoins, unpacked
 
-*Foundation document. "Stablecoins" is used as if it were one competitor. It isn't. Last updated November 11, 2026.*
+*Foundation document. "Stablecoins" is used as if it were one competitor. It isn't. Last updated November 15, 2026.*
 
 ## Why this page
 
@@ -55,7 +55,7 @@ So actual payments are roughly **1% of headline volume**. "Stablecoins process m
 
 | Project | What | Status | Signs of use |
 | --- | --- | --- | --- |
-| **Open USD** | Consortium stablecoin by Open Standard, 140+ backers including Visa, Stripe, Mastercard, BlackRock, Coinbase; reserve income shared with participating businesses; fee-free minting and redemption; natively on Tempo ([The Block](https://theblock.co/post/406736/visa-stripe-coinbase-join-open-usd-stablecoin-shares-reserve-revenue)) | Announced June 2026; listed on CoinGecko by November *[to verify: launch date]* | About $0.9 billion market cap |
+| **Open USD** | Consortium stablecoin by Open Standard, 140+ backers including Visa, Stripe, Mastercard, BlackRock, Coinbase; reserve income shared with participating businesses; fee-free minting and redemption; natively on Tempo ([The Block](https://theblock.co/post/406736/visa-stripe-coinbase-join-open-usd-stablecoin-shares-reserve-revenue)) | Announced June 2026; live September 30, 2026 ([Open Standard](https://joinopenstandard.com/blog/ousd-is-live)); listed on CoinGecko by November | About $0.9 billion market cap |
 | **Tempo** | Payments chain by Stripe and Paradigm | Live since March 18, 2026 | About 2.5 transactions a second in April 2026; over $1 billion in transfers in 30 days by September (third-party reports) |
 | **PayPal USD** | PayPal's stablecoin | Live | About $2.8 billion |
 | **Ripple USD, Global Dollar, USD1** | Company-issued dollar tokens | Live | About $2.7, $2.7 and $3.4 billion |
@@ -132,6 +132,7 @@ So actual payments are roughly **1% of headline volume**. "Stablecoins process m
 - [Protos on Tempo's usage](https://protos.com/?p=122462)
 - [Crypto Briefing on Tempo's transfer volume](https://cryptobriefing.com/tempo-1b-stablecoin-transfer-volume/)
 - [The Block on Open USD](https://theblock.co/post/406736/visa-stripe-coinbase-join-open-usd-stablecoin-shares-reserve-revenue)
+- [Open Standard: "OUSD is live"](https://joinopenstandard.com/blog/ousd-is-live)
 - [Unlock on JPYC's launch](https://unlock-bc.com/en/japan-launches-worlds-first-regulated-yen-stablecoin)
 - [The Block on the Visa and Dune non-dollar stablecoin report](https://www.theblock.co/post/395038/beyond-dollarization-visa-and-dune-report-finds-non-usd-stablecoins-increasingly-being-used-as-money)
 - [Shaping Tomorrow on "invisible dollarisation"](https://decision-intel.shapingtomorrow.com/scans/financial-services-future-of-money/2026-06-08-invisible-dollarisation/scan.html)
