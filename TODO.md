@@ -34,7 +34,6 @@
 ## To verify
 
 - [ ] K-pop album sales figures in area 11 (Circle Chart, KPIA originals).
-- [ ] Open USD's launch date (area 3).
 - [ ] Second / Bark and Arkade as the two main Ark implementations, and CoinOS running its own Ark servers (Landscape).
 - [ ] Whether Second has announced stablecoin plans for Bark (areas 3 and 14).
 - [ ] Paysable and KFriday: what they build for group order managers, with sources (area 11).
