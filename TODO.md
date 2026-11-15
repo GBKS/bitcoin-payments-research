@@ -1,6 +1,6 @@
 # To do
 
-*Open work on this research library. Items marked **help wanted** are good places for others to contribute. Last updated November 14, 2026.*
+*Open work on this research library. Items marked **help wanted** are good places for others to contribute. Last updated November 15, 2026.*
 
 ## Research
 
@@ -56,6 +56,7 @@
 - [ ] Spiral's 2022 report on how women view bitcoin is no longer online: find an archived copy and recheck the figures (area 17).
 - [ ] Cloudflare's NET Dollar: has it launched, and does the Monetization Gateway use it? Also its Q2 2026 statement that over half of traffic is not human (page 04).
 - [ ] Tando usage: payments to M-Pesa numbers, and how many recipients claim their addresses (area 18). **Help wanted.**
+- [ ] US sweepstakes crackdown and crypto gambling: do players move to offshore crypto casinos, and do any figures beyond Voltage's one-operator pilot show Lightning deposits funded from Cash App (page 05)?
 
 ## Maintenance
 
