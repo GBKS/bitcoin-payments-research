@@ -266,17 +266,6 @@
   checked: "2026-11-09, two agents"
   note: ""
 
-- id: "14-25"
-  text: "As of November 2026, Second hasn't announced plans for stablecoins in Bark."
-  kind: "absence"
-  label: "[to verify]"
-  source: "none"
-  quote: ""
-  quote_check: "none"
-  status: "unsourced"
-  checked: "2026-11-09, two agents"
-  note: "Absence claim: nothing found on second.tech, its blog or docs, or in web searches as of November 9, 2026."
-
 - id: "14-26"
   text: "Blink offers a Dollar Balance"
   kind: "event"

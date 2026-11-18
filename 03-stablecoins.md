@@ -1,6 +1,6 @@
 # Stablecoins, unpacked
 
-*Foundation document. "Stablecoins" is used as if it were one competitor. It isn't. Last updated November 15, 2026.*
+*Foundation document. "Stablecoins" is used as if it were one competitor. It isn't. Last updated November 18, 2026.*
 
 ## Why this page
 
@@ -95,7 +95,7 @@ So actual payments are roughly **1% of headline volume**. "Stablecoins process m
 ## Stablecoins on bitcoin
 
 - **Lightning:** USDT through Taproot Assets has been live since March 2026, still nascent ([Spark research](https://spark.money/research/lightning-network-2026-state)).
-- **Ark:** Tether backed Ark Labs' seed round to bring stablecoins to Arkade ([The Block](https://www.theblock.co/post/393198/tether-backs-ark-labs-5-2-million-seed-raise-to-expand-stablecoin-and-programmable-finance-infrastructure-on-bitcoin)). As of November 2026, Second hasn't announced stablecoin plans for Bark. *[to verify]*
+- **Ark:** Tether backed Ark Labs' seed round to bring stablecoins to Arkade ([The Block](https://www.theblock.co/post/393198/tether-backs-ark-labs-5-2-million-seed-raise-to-expand-stablecoin-and-programmable-finance-infrastructure-on-bitcoin)). Bark, by Second, is built for bitcoin payments ([Second](https://second.tech/)).
 - **Other bitcoin layers:** Spark, Liquid and RGB support or plan dollar tokens *[from memory; to verify]*.
 - **Synthetic bitcoin-based dollars:** Blink's Stablesats ([Blink](https://blink.sv/en/dollar-balance)).
 - **Swaps instead of holding:** atomic swaps between Lightning and USDT ([Bitcoin Magazine on Boltz](https://bitcoinmagazine.com/business/boltz-exchange-launches-atomic-usdt-swaps-for-lightning-network-users)), suspended since August 2026 along with all of Boltz's swaps ([Bitcoin News](https://bitcoinnews.com/p/boltz-suspends-bitcoin-services-ai-assisted-attacks)).
@@ -140,6 +140,7 @@ So actual payments are roughly **1% of headline volume**. "Stablecoins process m
 - [Spark research on the stablecoin yield debate](https://www.spark.money/research/stablecoin-yield-prohibition-debate)
 - [Spark: State of the Lightning Network in 2026](https://spark.money/research/lightning-network-2026-state)
 - [The Block on Tether backing Ark Labs](https://www.theblock.co/post/393198/tether-backs-ark-labs-5-2-million-seed-raise-to-expand-stablecoin-and-programmable-finance-infrastructure-on-bitcoin)
+- [Second](https://second.tech/)
 - [Blink Dollar Balance](https://blink.sv/en/dollar-balance)
 - [Bitcoin Magazine on Boltz USDT swaps](https://bitcoinmagazine.com/business/boltz-exchange-launches-atomic-usdt-swaps-for-lightning-network-users)
 - [Bitcoin News on Boltz's suspension](https://bitcoinnews.com/p/boltz-suspends-bitcoin-services-ai-assisted-attacks)
