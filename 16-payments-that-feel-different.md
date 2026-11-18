@@ -1,6 +1,6 @@
 # Payments that feel different
 
-*Deep dive, first draft, focused on gifting and payments as expression. Builds on the November 8 quick scan. Last updated November 11, 2026.*
+*Deep dive, first draft, focused on gifting and payments as expression. Builds on the November 8 quick scan. Last updated November 18, 2026.*
 
 ## Thesis
 
@@ -36,7 +36,7 @@ Area 11 covers collective payments (pooling toward a goal). This area covers pay
 
 ### WeChat red envelopes: a ritual that built a payment system
 
-- WeChat launched red envelopes on January 17, 2014. Group envelopes split a set sum randomly among recipients. During its Spring Festival Gala promotion, 1.2 billion envelopes worth over 500 million yuan went out ([Wikipedia](https://en.wikipedia.org/wiki/WeChat_red_envelope)). Wikipedia dates the promotion to 2014, but the same 500 million yuan was reported for the February 2015 Gala, when users shook their phones 11 billion times ([TechNode](https://technode.com/2015/02/27/wechat-payment-clear-winner-in-tencent-alibaba-digital-lucky-money-war/)). *[to verify: the year and the envelope count, against a primary source]* Because sending or receiving needed a linked bank account, an estimated 100–200 million people added bank details, a figure TechNode calls a rumor that WeChat didn't confirm, and WeChat Pay reportedly more than doubled its market share ([Wikipedia](https://en.wikipedia.org/wiki/WeChat_red_envelope)).
+- WeChat launched red envelopes on January 17, 2014. Group envelopes split a set sum randomly among recipients. On the first New Year's Eve, 4.82 million users took part ([TechNode, 2014](https://technode.com/2014/02/04/approaching-5-million-wechat-users-participated-in-the-lucky-money-game-on-chinese-new-year-eve/)). The big push came a year later. On February 18, 2015, in WeChat's first tie-up with CCTV's Spring Festival Gala, viewers shook their phones 11 billion times during the show, peaking at 810 million shakes a minute ([TechNode, 2015](https://technode.com/2015/02/27/wechat-payment-clear-winner-in-tencent-alibaba-digital-lucky-money-war/); [Qianzhan](https://www.qianzhan.com/analyst/detail/329/150227-f8218ce9.html), in Chinese). From 10:30 pm, 120 million envelopes went out ([ifanr](https://www.ifanr.com/496319), in Chinese). Sponsors such as JD.com, Huawei and Haier put up 500 million yuan. TechNode counts e-coupons in that sum; Beijing Review calls it cash, with 3 billion coupon envelopes on top ([Beijing Review](https://www.bjreview.com/business/txt/2015-03/02/content_671727.htm)). Tencent's CEO, Pony Ma, later said 100 million yuan of it went to tax, so users received about 400 million ([Qianzhan, from TechWeb](https://www.qianzhan.com/people/detail/270/150305-58720686.html), in Chinese). Over the whole of February 18, users sent and received 1.01 billion envelopes ([Beijing Review](https://www.bjreview.com/business/txt/2015-03/02/content_671727.htm)). Wikipedia's figure of 1.2 billion envelopes, dated 2014, doesn't match these sources ([Wikipedia](https://en.wikipedia.org/wiki/WeChat_red_envelope)); it likely misreads 1.2亿, which is 120 million *[assumption]*. Because sending needed a linked bank card, some 200 million bank accounts were rumored to have been linked over the 2015 holiday, a figure WeChat didn't confirm ([TechNode, 2015](https://technode.com/2015/02/27/wechat-payment-clear-winner-in-tencent-alibaba-digital-lucky-money-war/)). WeChat Pay reportedly more than doubled its market share ([Wikipedia](https://en.wikipedia.org/wiki/WeChat_red_envelope)).
 - **Gifts are contagious.** A study of 36.6 million red packets in 174,131 WeChat groups (about 3.45 million users, October 2015 to February 2016) used the random amounts as a natural experiment. Each extra dollar received led recipients to send about 18 cents back to the group within 24 hours, mostly because more people chose to send at all. The "luckiest draw" recipient was much more likely to send the next packet, suggesting a group norm. Gifts also created new connections within groups ([Yuan et al., arXiv](https://arxiv.org/pdf/1906.09698)).
 
 **What it teaches:** the random split turned giving into a game, the group made it visible, and the norm ("the luckiest sends next") kept it going. Payment adoption was a side effect.
@@ -82,7 +82,7 @@ There's no single number, but the scale signals are clear:
 | Signal | Scale | Source |
 | --- | --- | --- |
 | KakaoTalk Gift, 2025 | ~189 million gifts, ~540,000 a day | Korea Times |
-| WeChat red envelopes, Spring Festival Gala promotion (2015; Wikipedia says 2014) | 1.2 billion envelopes | Wikipedia, TechNode |
+| WeChat red envelopes, Spring Festival Gala (February 18, 2015) | 120 million envelopes from 10:30 pm; 11 billion shakes | ifanr, TechNode |
 | WeChat red packets studied, 2015–16 | 36.6 million packets in 174,131 groups | Yuan et al. |
 | Nostr zaps, first months (2023) | 142,000 transactions | CriptoNoticias |
 
@@ -141,6 +141,11 @@ The gap between the first three rows and the last is the opportunity: the behavi
 
 - [Wikipedia: WeChat red envelope](https://en.wikipedia.org/wiki/WeChat_red_envelope)
 - [TechNode on WeChat's 2015 Spring Festival Gala campaign](https://technode.com/2015/02/27/wechat-payment-clear-winner-in-tencent-alibaba-digital-lucky-money-war/)
+- [TechNode on WeChat's first New Year's Eve with red envelopes (2014)](https://technode.com/2014/02/04/approaching-5-million-wechat-users-participated-in-the-lucky-money-game-on-chinese-new-year-eve/)
+- [Beijing Review: Lucky Money Goes Digital (2015)](https://www.bjreview.com/business/txt/2015-03/02/content_671727.htm)
+- [ifanr on WeChat red envelopes at the 2015 Gala](https://www.ifanr.com/496319) (in Chinese)
+- [Qianzhan on the 2015 "red envelope war"](https://www.qianzhan.com/analyst/detail/329/150227-f8218ce9.html) (in Chinese)
+- [Qianzhan, from TechWeb, on Pony Ma and the Gala envelopes' tax](https://www.qianzhan.com/people/detail/270/150305-58720686.html) (in Chinese)
 - [Yuan et al.: Gift Contagion in Online Groups: Evidence from Virtual Red Packets](https://arxiv.org/pdf/1906.09698)
 - [Korea Times on KakaoTalk Gift in 2025](https://www.koreatimes.co.kr/business/companies/20251225/kakaotalk-gifting-service-used-nearly-200-mil-times-this-year)
 - [Herald Corp on KakaoTalk's gifting home screen](https://biz.heraldcorp.com/article/10777049)
