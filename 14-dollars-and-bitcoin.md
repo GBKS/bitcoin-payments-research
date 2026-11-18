@@ -1,6 +1,6 @@
 # Dollars and bitcoin
 
-*Deep dive, first draft. Builds on the November 9 quick scan and its claims check. Desk research only. Last updated November 11, 2026.*
+*Deep dive, first draft. Builds on the November 9 quick scan and its claims check. Desk research only. Last updated November 18, 2026.*
 
 ## Thesis
 
@@ -122,7 +122,7 @@ Electronics traders in Lagos's Computer Village pay suppliers in Guangzhou in un
 | USDT on Liquid | Live since 2019; Liquid paused after the September 2026 exploit | About $97.6 million issued, of which about $63.8 million is held in reserve, so roughly $34 million in circulation ([Tether](https://app.tether.to/transparency.json), November 10, 2026) *[the subtraction is ours]* | Tether; Liquid's federation |
 | USDB on Spark | Live since January 2026; issued by Brale, with rewards paid in bitcoin ([Spark](https://www.spark.money/news/usdb-rewards-stablecoin)) | Not published | The issuer can ask Spark's operators to freeze; "not enforced at the protocol level" ([Spark docs](https://docs.spark.money/learn/tokens/freezing)) |
 | Stablecoins on Arkade (Ark) | Tether backed Ark Labs' $5.2 million seed round in March 2026 to expand stablecoin support on Arkade, the other main Ark implementation ([The Block](https://www.theblock.co/post/393198/tether-backs-ark-labs-5-2-million-seed-raise-to-expand-stablecoin-and-programmable-finance-infrastructure-on-bitcoin)). Tether hadn't committed to issuing USDT there ([Decrypt](https://decrypt.co/360773/tether-backs-ark-labs-bet-on-bitcoins-stablecoin-revival)). | No live USDT found | Whoever holds the control asset can increase supply ([Arkade docs](https://docs.arkadeos.com/learn/arkade-assets/overview.md)) |
-| Bark (Ark, by Second) | Launched on mainnet in June 2026 for "self-custodial bitcoin payments" ([Bitcoin Magazine](https://bitcoinmagazine.com/news/second-launches-bark-on-bitcoin-mainnet)). As of November 2026, Second hasn't announced plans for stablecoins in Bark. *[to verify]* | Bitcoin only | — |
+| Bark (Ark, by Second) | Launched on mainnet in June 2026 for "self-custodial bitcoin payments" ([Bitcoin Magazine](https://bitcoinmagazine.com/news/second-launches-bark-on-bitcoin-mainnet)). | Bitcoin only | — |
 | USDT on RGB | Not live; Utexo, backed by Tether, plans a public launch on November 28, 2026, with Lightning in early 2027 ([Bitcoin Magazine](https://bitcoinmagazine.com/news/utexo-opens-early-access-to-usdt-on-bitcoin-through-utexo-mint)) | — | Backed by Tether's USDT0 |
 | Rootstock | Live: USDT0, DOC, USDRIF and others | About $8.8 million in stablecoins in total ([DefiLlama](https://stablecoins.llama.fi/stablecoins), November 10, 2026) | Varies by token |
 | Synthetic (Stablesats) | Live in Blink's custodial mode | Not published | The service |
