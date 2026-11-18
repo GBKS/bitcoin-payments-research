@@ -1,6 +1,6 @@
 # Group orders: research kit
 
-*A plan and materials for the first wave of direct research in area 11: interviews ("say"), money-flow mapping ("make") and following live orders ("do"). Ready to run. Last updated November 8, 2026.*
+*A plan and materials for the first wave of direct research in area 11: interviews ("say"), money-flow mapping ("make") and following live orders ("do"). Ready to run. Last updated November 18, 2026.*
 
 ## Goals
 
@@ -58,6 +58,7 @@ Don't mention bitcoin in recruiting. It biases who replies and what they say.
 - Have you lost money on an order? What happened?
 - Have you had to cover someone's share? For how long?
 - How do international joiners pay you? What does it cost them?
+- Have you tried another way to collect payments or track orders, and gone back? What happened?
 
 **Trust and reputation (5 min)**
 - How do new joiners decide to trust you?
@@ -66,7 +67,12 @@ Don't mention bitcoin in recruiting. It biases who replies and what they say.
 **Wrap-up (5 min)**
 - If one part of running orders disappeared, which would you pick?
 - What would make you stop running orders?
+- What would it take for you to change how you collect payments?
 - If a tool handled [their biggest pain], would you try it in a real order?
+
+**Bitcoin (5 min, at the very end, so it doesn't color the rest)**
+- What comes to mind when you hear "bitcoin"? *(Ask this before bitcoin comes up any other way.)*
+- If a new way of paying fixed [their biggest pain], and it used bitcoin, would you ask joiners to use it? How do you think they'd react?
 
 ## Interview guide: joiners (30–45 minutes)
 
@@ -78,6 +84,7 @@ Don't mention bitcoin in recruiting. It biases who replies and what they say.
 - How do you keep track of what you've paid and what's still coming?
 - What's the most frustrating part? What's the best part?
 - How do you feel about Friends & Family payments? Would you pay more for protection?
+- What comes to mind when you hear "bitcoin"? If a manager asked you to pay in bitcoin, what would you do? *(Ask these last, before bitcoin comes up any other way.)*
 
 ## Money-flow mapping (make, 30 minutes, in or after the interview)
 
