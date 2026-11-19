@@ -1,6 +1,6 @@
 # Start here: where demand for bitcoin payments could come from
 
-*A research notebook. Last updated November 14, 2026.*
+*A research notebook. Last updated November 19, 2026.*
 
 Bitcoin payment technology works better than ever, yet few people pay with bitcoin. That gap was hard to miss at conferences throughout 2026. This library asks where demand could actually come from: which people, needs and situations self-custodial bitcoin payments could serve better than anything else.
 
@@ -26,6 +26,7 @@ After first deep dives in all eight areas, the picture is narrower than the ecos
 8. **Agents pay machines in cents, mostly in USDC; people don't let agents pay for them** ([Agentic payments](13-agentic-payments.md)).
 9. **The edges decide access, not the protocol.** Custodial wallets leaving countries, app stores, single operators, licensing and swap providers going offline cut people off; non-custodial protects funds, not availability ([Money that can't be frozen](15-money-that-cant-be-frozen.md), [Last-mile infrastructure](18-last-mile-infrastructure.md)).
 10. **Most published numbers measure reach, not use.** Merchants enabled, addresses created, endpoints listed and wash-traded volume are reported; payments made rarely are. Treat headline figures with care.
+11. **Bitcoin tipping and gifting have been tried many times, and none lasted at scale.** Custody, running costs and unclaimed gifts ended more products than lack of interest; the most committed tipping community began moving to dollars in 2026 ([What happened to bitcoin tipping and gifting](06-tipping-and-gifting.md)).
 
 ## Research areas
 
@@ -50,12 +51,14 @@ The list will change as research reveals new areas or merges existing ones.
 - [Stablecoins, unpacked](03-stablecoins.md): what "stablecoins" actually covers, who wants dollars and who doesn't
 - [The internet's native currency, unpacked](04-internet-native-money.md): the six claims inside "native currency of the internet": paying instead of ads, pricing spam, machine payments, paying for AI crawling, permissionless receiving, and unit of account
 - [Where bitcoin is paid today](05-where-bitcoin-is-paid.md): a baseline of observed payments (Lightning, processors, gambling and gray markets, lost uses, what holders do), with one table of sizes across the library
+- [What happened to bitcoin tipping and gifting](06-tipping-and-gifting.md): the record of tipping and gifting products since 2013, how much they were used and how they ended
 - `11`–`18`: one file per area, each now a first-draft deep dive
 - [Group orders: a teardown of what managers built](11a-group-orders-teardown.md) and [Group orders: research kit](11b-group-orders-research-kit.md): the first direct research for area 11
 - [Auto-research](90-auto-research.md): where AI agents could check claims and keep numbers current, and a one-page pilot to test it
 
 ## Log
 
+- **November 19, 2026:** new foundation page, first draft: what happened to bitcoin tipping and gifting. Updated the lost uses in Where bitcoin is paid today (Twitter Tips, ZBD, Lightsats, Podcasting 2.0) and the bitcoin case and claim rates in Payments that feel different.
 - **November 14, 2026:** checked the Deel bitcoin figure against Deel's own H1 2022 report, after a contributor's comment on [issue 22](https://github.com/GBKS/bitcoin-payments-research/issues/22). The 47% is bitcoin's share of crypto withdrawals on Deel's platform, not of workers, and it is platform data, not a survey (Earning in bitcoin).
 - **November 11, 2026:** review pass with a second model. Corrected the Deel bitcoin-pay figure (Earning in bitcoin), x402's adjusted volume (Agentic payments), Tempo's usage (Stablecoins, unpacked), the year of WeChat's Gala promotion (Payments that feel different) and Speed's date (Dollars and bitcoin); added Wapu Pay in Argentina (Last-mile infrastructure) and Phoenix's return to the US (Money that can't be frozen). New foundation page, first draft: where bitcoin is paid today.
 - **November 10, 2026:** deep dives on dollars and bitcoin, money that can't be frozen, agentic payments, last-mile infrastructure, and brand and culture. Boltz's suspension added to Dollars and bitcoin and Stablecoins, unpacked; Square's merchant count reconciled in Landscape. Working thesis and lessons revised from all deep dives. New foundation page: the internet's native currency, unpacked. "Lessons from elsewhere" added to areas 11–15 and 18. El Salvador household survey (Alvarez, Argente and Van Patten) added to Landscape, Earning in bitcoin and Last-mile infrastructure, found via the Bitcoin Design Guide's design research list.
