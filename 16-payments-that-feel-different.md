@@ -1,6 +1,6 @@
 # Payments that feel different
 
-*Deep dive, first draft, focused on gifting and payments as expression. Builds on the November 8 quick scan. Last updated November 18, 2026.*
+*Deep dive, first draft, focused on gifting and payments as expression. Builds on the November 8 quick scan. Last updated November 19, 2026.*
 
 ## Thesis
 
@@ -61,9 +61,9 @@ During the COVID-19 period, many in Japan moved otoshidama to Amazon gift cards,
 
 ### Bitcoin's own expressive payments
 
-Nostr zaps passed 142,000 transactions by early March 2023, with about 41 million sats (about $9,250) on the busiest day ([CriptoNoticias](https://criptonoticias.com/tecnologia/ya-enviaron-mas-100000-propinas-bitcoin-nostr)). Value-for-value podcast apps let listeners stream sats or send boosts with messages. *[to verify: current volumes]*
+Nostr zaps passed 142,000 transactions by early March 2023, with about 41 million sats (about $9,250) on the busiest day ([CriptoNoticias](https://criptonoticias.com/tecnologia/ya-enviaron-mas-100000-propinas-bitcoin-nostr)). Value-for-value podcast apps let listeners stream sats or send boosts with messages. Both have declined since: zaps on the same relays fell about tenfold from 2023 to 2026, and in 2026 the podcast community began moving its boosts to USDC. Bitcoin gifting tools stayed small, and the longest-running one switched off new gifts in February 2026. Details in [What happened to bitcoin tipping and gifting](06-tipping-and-gifting.md).
 
-**What it teaches:** the behavior exists in bitcoin's own community and grew fast when it launched, but it's small, and it hasn't spread beyond people who already hold bitcoin.
+**What it teaches:** the behavior exists in bitcoin's own community and grew fast when it launched, but it's small, it hasn't spread beyond people who already hold bitcoin, and it hasn't lasted.
 
 ### Games
 
@@ -100,7 +100,7 @@ The gap between the first three rows and the last is the opportunity: the behavi
 
 **Trade-offs for self-custodial, client-side products**
 
-- **Recipients without a wallet are the main problem.** Gifts go to people who don't have bitcoin yet. A gift that can be claimed by link solves it, but the funds must either wait with the sender until claimed or be held by someone in between. *[to verify: claim-link options on Ark and Lightning]*
+- **Recipients without a wallet are the main problem.** Gifts go to people who don't have bitcoin yet. A gift that can be claimed by link solves it, but the funds must either wait with the sender until claimed or be held by someone in between. *[to verify: claim-link options on Ark and Lightning]* Expect many gifts to go unclaimed: one Lightning gifting tool saw 34% to 66% withdrawn, and brokers refund unclaimed gifts after two weeks ([What happened to bitcoin tipping and gifting](06-tipping-and-gifting.md)).
 - **The random group split can run on the sender's phone:** split the amount into random shares, create one claimable gift per share.
 - **Recipients becoming senders is the growth loop.** The gift contagion study suggests the first gift matters less than whether receiving prompts sending.
 - **Gift value in local currency:** givers think in yuan, won or yen, and amounts often carry meaning (auspicious numbers). The amount should be set in local currency at sending.
@@ -110,7 +110,7 @@ The gap between the first three rows and the last is the opportunity: the behavi
 
 **Risks**
 
-- **Novelty:** a beautiful ritual may delight once and not become a habit.
+- **Novelty:** a beautiful ritual may delight once and not become a habit. Every bitcoin tipping and gifting launch so far spiked and decayed ([What happened to bitcoin tipping and gifting](06-tipping-and-gifting.md)).
 - **Gambling optics:** random splits and games can look like gambling to Apple and regulators.
 - **Children:** otoshidama goes to children. Giving minors bitcoin raises questions of consent, custody and app age limits.
 - **Authenticity:** rituals belong to cultures; outsiders borrowing them can come across badly.

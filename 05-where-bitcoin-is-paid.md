@@ -1,6 +1,6 @@
 # Where bitcoin is paid today
 
-*Foundation document, first draft. A baseline of observed bitcoin payments, before asking where new demand could come from. Desk research only. Last updated November 18, 2026.*
+*Foundation document, first draft. A baseline of observed bitcoin payments, before asking where new demand could come from. Desk research only. Last updated November 19, 2026.*
 
 ## Why this page
 
@@ -90,8 +90,12 @@ Method principle 5 says to look beyond the respectable. These are the places whe
 | Merchant processors overall | 2018 | Bitcoin volume at 17 merchant services fell from $344.2 million in January to $95.6 million in September ([Digital Transactions, citing Chainalysis](https://www.digitaltransactions.net/bitcoins-renewed-volatility-casts-a-spotlight-on-its-shrinking-merchant-volume/)) |
 | BitPay | 2020–2021 | Bitcoin fell from 92% to about 65% of transactions ([FXStreet](https://www.fxstreet.com/cryptocurrencies/news/bitcoin-payments-decline-as-other-cryptocurrencies-grow-202201171049)) |
 | Purse (discounted Amazon orders paid in bitcoin) | 2020, 2023 | Announced closure in April 2020 ([The Block](https://www.theblock.co/post/62220/bitcoins-killer-app-purse-is-shutting-down-open-to-acquisition-opportunities)), then reversed it a week later after "an incredible outpouring of support from the community" and interest from buyers ([Cointelegraph](https://cointelegraph.com/news/bitcoin-payments-gateway-purse-is-reconsidering-closure-cites-community-support)). Acquired by Loadpipe in July 2023 ([a Loadpipe partner's blog](https://mikesblog.com/loadpipe/)). Purse's own post on the deal, "Purse is being Acquired and Sunsetting the Current Marketplace," ended new orders on July 3, 2023, citing how hard it was to scale beyond "novelty use cases" and to work with Amazon *[from search snippets of [Purse's post](https://medium.com/purse-essays/moving-in-a-new-direction-48f63a89cf42); the post itself couldn't be opened]* |
+| Twitter Tips with Strike (Lightning tips) | 2021–2022 | Faded after about $8,500 in payments worldwide, per a BSV-leaning outlet that names no source ([CoinGeek](https://coingeek.com/twitter-tips-on-lightning-network-fizzles-out-after-1-year-due-to-low-demand/)); see [What happened to bitcoin tipping and gifting](06-tipping-and-gifting.md) |
 | Tippin.me (Lightning tips) | 2023 | Its node went offline with no announcement; users couldn't withdraw ([No Bullshit Bitcoin](https://nobsbitcoin.com/tippin-me-potential-rug-pull)) |
 | CoinGate | 2023–2025 | Bitcoin fell from 35.6% to about 22% of payments ([CoinGate](https://coingate.com/blog/post/crypto-payments-report-2024-year-of-stablecoins)) |
+| ZBD (tips and gaming payments) | March 2025 | Left about 90 countries without giving a reason ([ZBD](https://intercom.help/zbd/en/articles/10752774-we-are-discontinuing-zbd-in-certain-regions)) |
+| Lightsats (gifts by link) | February 2026 | New gifts switched off, with no announcement found ([commit](https://github.com/lightsats/lightsats/commit/84005714dd148e5c1634129109c88d83c610fc46)) |
+| Podcasting 2.0 (value-for-value tips) | 2026 | Streaming sats collapsed and the Podcast Index's Lightning node is closing ([Signal #27](https://buttondown.com/signal-podosphere/archive/signal-27-youtube-overtook-spotify-for-podcast/)); boosts paid in USDC demonstrated in November ([Podnews](https://podnews.net/update/apple-tv-apple-podcasts)); see [What happened to bitcoin tipping and gifting](06-tipping-and-gifting.md) |
 
 **What it shows:** bitcoin was once the only coin at checkout. Merchants left when on-chain fees and price swings peaked in late 2017, and they gave low demand as often as cost. Lightning fixed the fees; the merchants didn't come back, and stablecoins took the growth. Tipping products closed twice, a decade apart.
 
