@@ -42,7 +42,7 @@
 - [ ] Trails Coffee and BitTasker details (area 12; sites couldn't be opened). **Help wanted.**
 - [ ] When Speed added USDT on Lightning (area 14).
 - [ ] River's 2026 Lightning figures ($1.17 billion, 5.22 million transactions, data providers): check against the PDF by eye, since they were read from page images (page 05).
-- [ ] Purse's 2023 wind-down: the announcement and its stated reasons (page 05).
+- [ ] Purse's 2023 wind-down: open Purse's own post on Medium (it blocks automated fetching) to confirm the July 3, 2023 date and the stated reasons, which so far come from search snippets (page 05).
 - [ ] Current volumes for Nostr zaps and value-for-value podcasting (area 16). **Help wanted.**
 - [ ] Status of the US de minimis tax exemption (S.2207) since August 2026 (area 12).
 - [ ] Strike's paycheck-to-bitcoin fees and whether Deel still offers bitcoin withdrawals (area 12).
