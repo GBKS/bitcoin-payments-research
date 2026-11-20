@@ -1,6 +1,6 @@
 # Where bitcoin is paid today
 
-*Foundation document, first draft. A baseline of observed bitcoin payments, before asking where new demand could come from. Desk research only. Last updated November 19, 2026.*
+*Foundation document, first draft. A baseline of observed bitcoin payments, before asking where new demand could come from. Desk research only. Last updated November 20, 2026.*
 
 ## Why this page
 
@@ -12,6 +12,7 @@ The research areas start from where demand *might* come from. This page starts f
 - **At payment processors, bitcoin is one coin among several.** It was 22% of CoinGate's payments in 2025, and most merchants there settle in euros.
 - **Bitcoin is paid where the recipient asks for it and has few other options:** gambling sites, darknet markets, ransomware, and privacy services. Even there it is losing share to stablecoins and Monero.
 - **Bitcoin has lost payment uses.** Large merchants dropped it in 2017 and 2018 over fees, volatility and low demand; its share at processors has fallen since.
+- **At US Square sellers, bitcoin pays for coffee.** Block's first data shows small, repeated purchases: a median payment of about $13, 72% at food and drink businesses. Block withholds how many payments there are.
 - **Most bitcoin doesn't move.** About 64% hasn't moved in a year, and about 3 million coins sit in ETFs, public companies and governments, where they can't be spent.
 - **Holders who want to spend use dollars.** Crypto cards are funded mostly with stablecoins, and holders borrow against bitcoin instead of selling it.
 
@@ -36,7 +37,7 @@ The research areas start from where demand *might* come from. This page starts f
 | Nostr zaps | 43 BTC, all time to August 2026 | One tracker ([Earning in bitcoin](12-earning-in-bitcoin.md)) |
 | MoneyBadger, South Africa | about $1 million a year (2025) | Lightning at retail tills ([Last-mile infrastructure](18-last-mile-infrastructure.md)) |
 | Fountain, listeners to podcasters | $127,900 in 2024 | ([Earning in bitcoin](12-earning-in-bitcoin.md)) |
-| Square sellers, bitcoin payments | Not published | About 1 million merchants enabled ([Landscape](02-landscape.md)) |
+| Square sellers, bitcoin payments | Not published | Totals withheld; average payment about $29, median about $13 ([see below](#square-sellers-the-first-look-at-everyday-spending)) |
 
 **What it shows:** the flows this library studies most closely (zaps, podcasting, circular economies, agent payments) are the smallest rows. The large rows are transfers between exchanges, gambling, illicit markets and dollar-funded cards.
 
@@ -64,6 +65,24 @@ Sources: [CoinGate 2025](https://coingate.com/blog/post/crypto-payments-data-rep
 - **BTCPay Server** can't count its users' payments; its 2025 report gives anecdotes only ([BTCPay Server](https://blog.btcpayserver.org/2025-report/)).
 
 **What it shows:** people who pay through processors already hold crypto and spend what they hold; bitcoin is about a fifth of it. Merchants mostly take local money, as elsewhere in this library.
+
+## Square sellers: the first look at everyday spending
+
+In November 2026, Block published the first data on bitcoin payments at US Square sellers, covering November 1, 2025 to October 15, 2026 ([Block](https://block.xyz/bitcoin/payments-report/bitcoin-payments-report.pdf)). *Block owns Square and Cash App and uses the report to argue for a tax exemption. The total number of payments, sellers and value are withheld as "proprietary." [to verify: figures were read from page images, not text]*
+
+- **Small payments.** The average was about $29 and the median about $13. 42.4% of payments were under $10, but they were 7.9% of the value; 89% were under $50.
+- **Mostly food and drink.** Food and drink businesses received 72.3% of bitcoin payments, against 67.5% of Square card payments. Within food and drink, coffee shops and fast food took 62.6% (50.8% for cards), with a median of $9.10. Home and repair (3.2% against 1.2%) also over-indexes; beauty, health and leisure under-index.
+- **Repeat buyers, at least among Cash App users.** Where the same Cash App customer paid the same merchant at least twice, the median was three purchases and the average about five. 44% of Cash App customers' bitcoin payments were repeats, and 86% of those came within 30 days of the previous one. Payers using other wallets can't be matched, so they're left out.
+- **Most payments come from other wallets.** Cash App made 43.4% of payments and 34.0% of the value; other Lightning wallets, such as Strike, Wallet of Satoshi, Phoenix and Coinbase, made 56.6% and 66.0%. That puts the average at about $34 from other wallets and about $23 from Cash App *[our arithmetic]*. The report doesn't separate self-custodial wallets from custodial ones.
+- **Merchants choose what to keep.** Sellers set the percentage of each sale they receive in bitcoin; the rest is converted to dollars. Zero processing fees were extended through December 31, 2027. The report doesn't say how many merchants keep any bitcoin.
+
+**Caveats.**
+
+- **Scale is likely small.** Bakeries are described as having "strong merchant diversity" at 2.7 payments per merchant over about 11 months. That suggests low volume per merchant, though Block gives no overall figure *[our reading]*.
+- **"Bitcoin" may include dollars.** Cash App lets users pay Square sellers over Lightning "using dollars from your Cash App balance, no bitcoin required" ([Block](https://block.xyz/bitcoin/roadmap/item/pay-dollars-over-lightning-025)). The report doesn't say how much of Cash App's share was paid from dollar balances *[to verify]*.
+- **Who pays is unknown.** The data fits broad everyday use, and it also fits a small number of enthusiasts buying coffee at the same places *[assumption: the report can't tell these apart]*.
+
+**What it shows:** where bitcoin is accepted by default at the counter, it is used the way cards are, for coffee and lunch, and some people come back. How many people do so is still unknown.
 
 ## Where the recipient asks for bitcoin
 
@@ -129,13 +148,14 @@ Holders are the nearest source of spending, since they don't have to buy first.
 
 - **In the US, every purchase is a taxable sale.** A $300 exemption (S.2207) was still in committee in August 2026 ([CoinTracking](https://cointracking.info/blog/crypto-de-minimis-tax-exemption)). The bill that advanced in the House in September 2026 exempts only network fees of $10 or less, while giving dollar stablecoins no-gain treatment ([EY](https://taxnews.ey.com/news/2026-1972-ways-and-means-approves-digital-assets-tax-bill), [Forvis Mazars](https://www.forvismazars.us/forsights/2026/09/ways-means-approves-digital-asset-tax-certainty-act)).
 - **Germany and Portugal exempt bitcoin held for a year** ([CoinTracking](https://cointracking.info/blog/germany-crypto-holding-period-reform-2026), [LVP Advogados](https://www.lvpadvogados.com/crypto-assets-in-portugal-current-tax-framework-and-key-developments)). Germany's finance minister has signaled a change from 2027 ([Cointelegraph](https://cointelegraph.com/news/germany-signals-2027-crypto-tax-overhaul-one-year-holding-perk-under-threat)).
-- **No study measures the effect.** Germans can spend long-held bitcoin tax-free, and about nine in ten German crypto owners still use it primarily to invest. That suggests tax isn't the main barrier *[assumption: no source tests this]*.
+- **Tax is one barrier among several.** In a survey commissioned by Block, 23.6% of US businesses that don't accept bitcoin cited tax and accounting complexity, "about the same" as regulation, refunds or price swings; among businesses that considered accepting it, 27%. Of people who don't own bitcoin, 29.6% said they'd be more likely to pay with it if it were easier, and 15.7% of those were unsure how it's taxed ([Block](https://block.xyz/bitcoin/payments-report/bitcoin-payments-report.pdf), Morning Consult, 8,669 bitcoin-aware US adults, August 2026). That is about 4.6% of non-owners *[our arithmetic]*.
+- **No study measures the effect.** Germans can spend long-held bitcoin tax-free, and about nine in ten German crypto owners still use it primarily to invest. That, and Block's survey, suggest tax isn't the main barrier *[assumption: no source tests this; neither survey asks holders why they don't spend]*.
 
 ## What people say, and what they do
 
 **Say:** in a survey of over 5,700 bitcoin holders by a mining company, 55% rarely or never spend crypto, and blame merchant acceptance (49%), fees (45%) and volatility (43%) ([CryptoPotato on GoMining](https://cryptopotato.com/gomining-survey-shows-55-of-bitcoiners-never-use-it-for-real-world-payments/)). *A company survey, not a representative sample.*
 
-**Do:** about 1 million Square sellers are enabled to accept bitcoin and no usage is published; Lightning removed the fees that drove merchants away in 2017, and they didn't return. Among Americans who do pay with crypto, the top reason is that the recipient preferred it: 26% in 2025 ([Federal Reserve](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-banking.htm)) and over 35% in 2024 ([Kansas City Fed](https://www.kansascityfed.org/research/payments-system-research-briefings/us-consumers-use-of-cryptocurrency-for-payments/)).
+**Do:** about 1 million Square sellers are enabled to accept bitcoin. Block's data shows the payments that do happen are small and often repeated, but not how many there are. Lightning removed the fees that drove merchants away in 2017, and they didn't return. Among Americans who do pay with crypto, the top reason is that the recipient preferred it: 26% in 2025 ([Federal Reserve](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-banking.htm)) and over 35% in 2024 ([Kansas City Fed](https://www.kansascityfed.org/research/payments-system-research-briefings/us-consumers-use-of-cryptocurrency-for-payments/)).
 
 **Say versus do:** holders say acceptance and fees stop them. Where both were fixed, spending didn't follow. People pay in bitcoin when the other side asks for it.
 
@@ -148,6 +168,7 @@ Holders are the nearest source of spending, since they don't have to buy first.
 | 13 Agentic payments | The same shift as at processors and casinos: bitcoin first, stablecoins for growth |
 | 14 Dollars and bitcoin | Holders who spend already use dollars (cards, loans). The question is whether bitcoin wallets serve that or leave it to others |
 | 15 Money that can't be frozen | The largest "recipient asks" flows are gray or illicit, and they are moving to Monero where privacy matters |
+| 16 Payments that feel different | Square's data is a counterexample to "meaning carries the payment": routine coffee and lunch, repeated, with no ritual attached |
 | 17 Brand and culture as demand | Lightning volume as a headline number is reach, not use |
 | 18 Last-mile infrastructure | Exchange deposits and withdrawals are Lightning's largest real use: moving in and out is the product |
 
@@ -155,7 +176,7 @@ Holders are the nearest source of spending, since they don't have to buy first.
 
 1. The share of Lightning volume that pays for goods or services, as opposed to exchange transfers.
 2. The value of bitcoin payments at any processor (CoinGate gives counts, BitPay rankings).
-3. Bitcoin payments received by Square sellers.
+3. The number and value of bitcoin payments at Square sellers, and how many merchants keep bitcoin (Block publishes shares and medians only).
 4. Bitcoin's share of deposits at any gambling operator.
 5. Bitcoin against Monero on darknet markets, by volume.
 6. The share of customers paying in bitcoin at any VPN, registrar or host.
@@ -167,7 +188,7 @@ Holders are the nearest source of spending, since they don't have to buy first.
 
 1. What do people buy with the bitcoin they move off exchanges over Lightning, if anything?
 2. Why did merchants not return once Lightning removed fees: low demand, volatility, tax, or habit?
-3. Are there holders who spend regularly? Who are they, what do they buy, and do they buy the bitcoin back?
+3. Are there holders who spend regularly? Who are they, what do they buy, and do they buy the bitcoin back? Block's data shows repeat buyers at the same coffee shops, but not who they are or how many.
 4. Does a one-year tax exemption change spending in Germany or Portugal?
 5. Where sellers have moved from bitcoin to stablecoins or Monero, what would they have needed to stay?
 
@@ -180,6 +201,8 @@ Holders are the nearest source of spending, since they don't have to buy first.
 **Where the recipient asks:** [Earnings+More on casino estimates](https://earningsandmore.substack.com/p/calling-bull) · [Daily Hodl on Yield Sec](https://dailyhodl.com/2025/04/22/crypto-gambling-generates-81400000000-in-gross-revenue-at-casinos-last-year-despite-regulatory-bans-report/) · [IMGL Magazine on crypto casinos](https://www.imgl.org/publications/imgl-magazine-volume-3-no-1/the-rise-and-rise-of-crypto-casino-and-what-can-be-done-to-stop-it-if-anything/) · [SOFTSWISS: State of crypto 2024](https://www.softswiss.com/knowledge-hub/state-of-crypto-2024/) · [Voltage: Reach Cash App users](https://voltage.cloud/use-case/reach-cash-app-users) · [Bitcoin Magazine on Lightning in iGaming](https://bitcoinmagazine.com/news/bitcoin-lightning-turning-igaming-payouts) · [Voltage on sweepstakes](https://voltage.cloud/blog/from-fiat-friction-to-instant-play-how-bitcoin-lightning-is-transforming-igaming-prediction-markets-and-redemptions) · [Track360 on state sweepstakes bans](https://track360.io/blog/states-banning-sweepstakes-casinos-2026-legislative-tracker-operator-playbook) · [Chainalysis on darknet markets, 2026](https://www.chainalysis.com/blog/crypto-drug-sales-darknet-markets-2026/) · [Chainalysis on darknet markets, 2025](https://www.chainalysis.com/blog/darknet-markets-2025/) · [TRM Labs on Monero](https://trmlabs.com/resources/blog/monero-in-2025-persistent-use-and-emerging-network-layer-insights) · [Chainalysis on ransomware](https://www.chainalysis.com/blog/crypto-ransomware-2026/) · [The Register on ransomware](https://www.theregister.com/2026/02/27/ransomware_chainalysis/) · [Mullvad pricing](https://mullvad.net/en/pricing) · [Mullvad, 2010](https://mullvad.net/en/blog/bitcoin-payments) · [IVPN payment methods](https://www.ivpn.net/knowledgebase/general/what-payment-methods-do-you-accept/) · [BTCPay Server on Namecheap](https://blog.btcpayserver.org/case-study-namecheap/)
 
 **Lost uses:** [Stripe: ending bitcoin support](https://stripe.com/blog/ending-bitcoin-support) · [The Next Web on Steam](https://thenextweb.com/news/bitcoin-valve-steam-payments) · [U.Today on Dell](https://u.today/dell-ceo-michael-dell-snubs-bitcoin) · [Bleeping Computer on Microsoft](https://www.bleepingcomputer.com/news/cryptocurrency/microsoft-halts-bitcoin-transactions-because-its-an-unstable-currency-/) · [CoinGeek on Expedia](https://coingeek.com/btc-loses-another-major-company-expedia-removes-btc-payments-website/) · [Digital Transactions on merchant volume](https://www.digitaltransactions.net/bitcoins-renewed-volatility-casts-a-spotlight-on-its-shrinking-merchant-volume/) · [FXStreet on BitPay's bitcoin share](https://www.fxstreet.com/cryptocurrencies/news/bitcoin-payments-decline-as-other-cryptocurrencies-grow-202201171049) · [Bitcoin.com News on ChangeTip](https://news.bitcoin.com/bitcoin-tipping-changetip-closes-doors) · [No Bullshit Bitcoin on Tippin.me](https://nobsbitcoin.com/tippin-me-potential-rug-pull) · [The Block on Purse](https://www.theblock.co/post/62220/bitcoins-killer-app-purse-is-shutting-down-open-to-acquisition-opportunities) · [Cointelegraph on Purse's reversal](https://cointelegraph.com/news/bitcoin-payments-gateway-purse-is-reconsidering-closure-cites-community-support) · [Loadpipe partner's blog on acquiring Purse](https://mikesblog.com/loadpipe/) · [Purse: acquired and sunsetting the marketplace](https://medium.com/purse-essays/moving-in-a-new-direction-48f63a89cf42)
+
+**Square:** [Block: The state of bitcoin payments](https://block.xyz/bitcoin/payments-report) · [The report as PDF](https://block.xyz/bitcoin/payments-report/bitcoin-payments-report.pdf) · [Block: Pay dollars over Lightning](https://block.xyz/bitcoin/roadmap/item/pay-dollars-over-lightning-025)
 
 **Remittances:** [Diario El Mundo, 2023](https://diario.elmundo.sv/economia/1-de-cada-100-en-remesas-se-ha-enviado-en-bitcoin-desde-septiembre-de-2021) · [Bitcoin.com News on 2024](https://news.bitcoin.com/central-reserve-bank-only-1-1-of-remittances-involve-cryptocurrency-in-el-salvador) · [Diario El Mundo, 2025](https://diario.elmundo.sv/economia/las-remesas-en-billeteras-de-criptomonedas-caen-un-445-en-el-salvador) · [Blockhead on 2026](https://www.blockhead.co/2026/07/29/the-bitcoin-experiments-five-year-report-card-35-4-million/)
 
