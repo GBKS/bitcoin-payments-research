@@ -1,6 +1,6 @@
 # Start here: where demand for bitcoin payments could come from
 
-*A research notebook. Last updated November 19, 2026.*
+*A research notebook. Last updated November 20, 2026.*
 
 Bitcoin payment technology works better than ever, yet few people pay with bitcoin. That gap was hard to miss at conferences throughout 2026. This library asks where demand could actually come from: which people, needs and situations self-custodial bitcoin payments could serve better than anything else.
 
@@ -19,13 +19,13 @@ After first deep dives in all eight areas, the picture is narrower than the ecos
 1. **Dollars for daily life, bitcoin for savings and flight.** Crypto salaries, crisis workarounds and peer-to-peer trading run on stablecoins; people buy bitcoin to save and carry it when they leave ([Dollars and bitcoin](14-dollars-and-bitcoin.md), [Money that can't be frozen](15-money-that-cant-be-frozen.md)).
 2. **The recipient decides, and usually wants local money.** Among Americans who paid with crypto, the top reason was that the recipient preferred it; merchants who accept bitcoin mostly settle in dollars, rand or shillings, even where the law required them to accept it ([Brand and culture as demand](17-brand-and-culture-as-demand.md), [Last-mile infrastructure](18-last-mile-infrastructure.md)).
 3. **Where people earn bitcoin today, someone set it up:** conversion services that turn paychecks into savings, platforms paying from ad budgets, and community projects that create earners first ([Earning in bitcoin](12-earning-in-bitcoin.md)).
-4. **Bitcoin wins where something else carries the meaning:** a ritual, a community, or a real freeze. Low fees alone haven't been enough ([Payments that feel different](16-payments-that-feel-different.md), [Community-driven economies](11-community-driven-economies.md)).
+4. **Bitcoin wins where something else carries the meaning:** a ritual, a community, or a real freeze. Low fees alone haven't been enough ([Payments that feel different](16-payments-that-feel-different.md), [Community-driven economies](11-community-driven-economies.md)). The one counterexample: at US Square sellers, where bitcoin is accepted by default, it pays for routine coffee and lunch, often at the same places again. How many people do this isn't published ([Where bitcoin is paid today](05-where-bitcoin-is-paid.md)).
 5. **Being cut off creates demand, but it's episodic.** Blockaded groups turn to bitcoin, convert quickly, and rarely stay; what survives a freeze is self-custody, not the asset ([Money that can't be frozen](15-money-that-cant-be-frozen.md)).
 6. **Visible use spreads use; bitcoin payments are invisible.** Rituals spread through receiving, and products people can see others using spread further. Bitcoin payments leave nothing to see or share ([Payments that feel different](16-payments-that-feel-different.md), [Brand and culture as demand](17-brand-and-culture-as-demand.md)).
 7. **In community money, the pain is bookkeeping and trust,** not the transfer itself ([Community-driven economies](11-community-driven-economies.md)).
 8. **Agents pay machines in cents, mostly in USDC; people don't let agents pay for them** ([Agentic payments](13-agentic-payments.md)).
 9. **The edges decide access, not the protocol.** Custodial wallets leaving countries, app stores, single operators, licensing and swap providers going offline cut people off; non-custodial protects funds, not availability ([Money that can't be frozen](15-money-that-cant-be-frozen.md), [Last-mile infrastructure](18-last-mile-infrastructure.md)).
-10. **Most published numbers measure reach, not use.** Merchants enabled, addresses created, endpoints listed and wash-traded volume are reported; payments made rarely are. Treat headline figures with care.
+10. **Most published numbers measure reach, not use.** Merchants enabled, addresses created, endpoints listed and wash-traded volume are reported; payments made rarely are. Block's Square report is a partial exception: it shows what bitcoin payments look like, but withholds how many there are. Treat headline figures with care.
 11. **Bitcoin tipping and gifting have been tried many times, and none lasted at scale.** Custody, running costs and unclaimed gifts ended more products than lack of interest; the most committed tipping community began moving to dollars in 2026 ([What happened to bitcoin tipping and gifting](06-tipping-and-gifting.md)).
 
 ## Research areas
@@ -58,6 +58,7 @@ The list will change as research reveals new areas or merges existing ones.
 
 ## Log
 
+- **November 20, 2026:** added Block's first report on bitcoin payments at US Square sellers (November 2026) to Where bitcoin is paid today, with notes in Landscape, Dollars and bitcoin, Last-mile infrastructure and two of the lessons above. Corrected Square's zero-fee period, now extended through 2027 (Landscape).
 - **November 19, 2026:** new foundation page, first draft: what happened to bitcoin tipping and gifting. Updated the lost uses in Where bitcoin is paid today (Twitter Tips, ZBD, Lightsats, Podcasting 2.0) and the bitcoin case and claim rates in Payments that feel different.
 - **November 14, 2026:** checked the Deel bitcoin figure against Deel's own H1 2022 report, after a contributor's comment on [issue 22](https://github.com/GBKS/bitcoin-payments-research/issues/22). The 47% is bitcoin's share of crypto withdrawals on Deel's platform, not of workers, and it is platform data, not a survey (Earning in bitcoin).
 - **November 11, 2026:** review pass with a second model. Corrected the Deel bitcoin-pay figure (Earning in bitcoin), x402's adjusted volume (Agentic payments), Tempo's usage (Stablecoins, unpacked), the year of WeChat's Gala promotion (Payments that feel different) and Speed's date (Dollars and bitcoin); added Wapu Pay in Argentina (Last-mile infrastructure) and Phoenix's return to the US (Money that can't be frozen). New foundation page, first draft: where bitcoin is paid today.

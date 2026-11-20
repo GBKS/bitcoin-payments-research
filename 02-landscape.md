@@ -1,6 +1,6 @@
 # Landscape
 
-*The shared context for every area document, so they don't each repeat it. Last updated November 10, 2026.*
+*The shared context for every area document, so they don't each repeat it. Last updated November 20, 2026.*
 
 The question behind this library (why so few people pay with bitcoin, when the technology works) came from a year of conversations at bitcoin conferences. Spiral's two recent posts arrived while this thinking was underway. They reach a similar diagnosis, which is why they're summarized here as useful context, not as the starting point.
 
@@ -52,7 +52,8 @@ The question behind this library (why so few people pay with bitcoin, when the t
 ## Bitcoin payments in numbers
 
 - **Merchant acceptance is mostly a map, not a market.** BTC Map listed 26,914 bitcoin-accepting merchants on August 31, 2026, but only 16,243 (about 60%) had been verified within the past year ([BTC Map](https://blog.btcmap.org/posts/2026-08/)).
-- **Acceptance stopped being the bottleneck in the US.** On March 30, 2026, Square began turning on Lightning payments by default for eligible US sellers, out of about four million (outside New York), with zero fees through 2026 and 1% after. Merchants can settle in dollars, keep everything in bitcoin, or keep a percentage ([Whale Alert](https://whale-alert.io/stories/bb9e015c075f35/Block-auto-enables-native-Bitcoin-Lightning-payments-for-4M-Square-merchants-zero-processing-fees-through-2026-merchants-may-settle-in-USD-BTC-or-a-percentage)). About 1 million were enabled by May 2026, receiving dollars by default; no usage figures are published ([Bitcoin Magazine](https://bitcoinmagazine.com/news/square-crosses-1-million-bitcoin-merchants)).
+- **Acceptance stopped being the bottleneck in the US.** On March 30, 2026, Square began turning on Lightning payments by default for eligible US sellers, out of about four million (outside New York), with zero fees through 2026 and 1% after; Block has since extended zero processing fees through December 31, 2027 ([Block](https://block.xyz/bitcoin/payments-report/bitcoin-payments-report.pdf)). Block dates the launch of bitcoin payments for US sellers to late 2025. Merchants can settle in dollars, keep everything in bitcoin, or keep a percentage ([Whale Alert](https://whale-alert.io/stories/bb9e015c075f35/Block-auto-enables-native-Bitcoin-Lightning-payments-for-4M-Square-merchants-zero-processing-fees-through-2026-merchants-may-settle-in-USD-BTC-or-a-percentage)). About 1 million were enabled by May 2026, receiving dollars by default ([Bitcoin Magazine](https://bitcoinmagazine.com/news/square-crosses-1-million-bitcoin-merchants)).
+- **The first usage data is about coffee.** Block's November 2026 report on bitcoin payments at US Square sellers found a median payment of about $13, 72% of payments at food and drink businesses, and repeat purchases at the same merchants. It withholds the total number and value of payments ([Block](https://block.xyz/bitcoin/payments-report/bitcoin-payments-report.pdf); details in [Where bitcoin is paid today](05-where-bitcoin-is-paid.md)).
 - **A legal mandate didn't make bitcoin a medium of exchange.** Five months after El Salvador made bitcoin legal tender, a face-to-face survey of 1,800 households found that 20% of respondents kept using the state wallet after spending its $30 bonus. Only 20% of firms accepted bitcoin, mostly very large ones; 11.4% had any bitcoin sales; bitcoin made up 4.9% of sales on average; and 88% of businesses converted bitcoin sales to dollars ([Alvarez, Argente and Van Patten](https://www.davidargente.com/_files/ugd/b05023_7825615207654784864b4c4cc4ec6550.pdf), February 2022 data). Later polls point the same way ([Earning in bitcoin](12-earning-in-bitcoin.md)).
 - **Bitcoin is how people enter crypto, not how they pay.** Chainalysis's 2025 index found bitcoin drew over $4.6 trillion in fiat inflows, against just under $1 trillion for stablecoins. The top countries were India, the US, Pakistan, Vietnam and Brazil ([Cointelegraph](https://cointelegraph.com/news/us-second-in-crypto-adoption-india-leads-all-chainalysis), September 2025).
 - **Lightning:** USDT on Lightning went live in March 2026 but remains nascent, mostly LND-based ([Spark research](https://spark.money/research/lightning-network-2026-state)).
@@ -118,7 +119,7 @@ Paulo Sacramento, a UX researcher in the Bitcoin Design Community, studied 25 pe
 | [Pave](https://gbks.substack.com/p/pave-protocol-for-last-mile-bitcoin) | A sketch by this library's author for paying phone numbers and bank accounts from a bitcoin wallet | Last-mile infrastructure |
 | [Trails Coffee](https://trailscoffee.com/), [BitTasker](https://bittasker.com/) | Live projects where people earn bitcoin | Earning; possible research partners |
 | [KDOL](https://en.wowtale.net/2025/10/09/232389) (Hashpurple) | Crowdfunding for K-pop fan ads, not crypto-based | Reference product for community economies |
-| Cash App / Square | Lightning on by default for eligible US Square sellers since March 2026; about 1 million enabled by May | Design and brand comparison; Spiral is part of Block |
+| Cash App / Square | Lightning on by default for eligible US Square sellers since March 2026; about 1 million enabled by May; first payment data published November 2026 | Design and brand comparison; Spiral is part of Block |
 | CoinOS, a Japanese bitcoin community | Run their own Ark servers *[from memory; to verify]* | Server diversity for Ark |
 | Taproot Assets | Stablecoins on bitcoin *[from memory: Lightning Labs]* | Dollars and bitcoin |
 
@@ -128,6 +129,7 @@ Paulo Sacramento, a UX researcher in the Bitcoin Design Community, studied 25 pe
 - [Alvarez, Argente and Van Patten: Are cryptocurrencies currencies? Bitcoin as legal tender in El Salvador](https://www.davidargente.com/_files/ugd/b05023_7825615207654784864b4c4cc4ec6550.pdf)
 - [BTC Map: global metrics, August 2026](https://blog.btcmap.org/posts/2026-08/)
 - [Bitcoin Magazine on Square's 1 million merchants](https://bitcoinmagazine.com/news/square-crosses-1-million-bitcoin-merchants)
+- [Block: The state of bitcoin payments](https://block.xyz/bitcoin/payments-report/bitcoin-payments-report.pdf)
 - [Whale Alert on Square's Lightning rollout](https://whale-alert.io/stories/bb9e015c075f35/Block-auto-enables-native-Bitcoin-Lightning-payments-for-4M-Square-merchants-zero-processing-fees-through-2026-merchants-may-settle-in-USD-BTC-or-a-percentage)
 - [Cointelegraph on Chainalysis's 2025 index](https://cointelegraph.com/news/us-second-in-crypto-adoption-india-leads-all-chainalysis)
 - [African Exponent on World Bank remittance prices](https://www.africanexponent.com/chart-of-the-day-sending-200-home-to-sub-saharan-africa-costs-8-46-percent/)

@@ -1,6 +1,6 @@
 # To do
 
-*Open work on this research library. Items marked **help wanted** are good places for others to contribute. Last updated November 18, 2026.*
+*Open work on this research library. Items marked **help wanted** are good places for others to contribute. Last updated November 20, 2026.*
 
 ## Research
 
@@ -42,6 +42,7 @@
 - [ ] Trails Coffee and BitTasker details (area 12; sites couldn't be opened). **Help wanted.**
 - [ ] When Speed added USDT on Lightning (area 14).
 - [ ] River's 2026 Lightning figures ($1.17 billion, 5.22 million transactions, data providers): check against the PDF by eye, since they were read from page images (page 05).
+- [ ] Block's Square payments report (November 2026): check the figures against the PDF by eye, since they were read from page images, and find out how much of Cash App's share was paid from dollar balances over Lightning rather than from bitcoin (page 05).
 - [ ] Purse's 2023 wind-down: open Purse's own post on Medium (it blocks automated fetching) to confirm the July 3, 2023 date and the stated reasons, which so far come from search snippets (page 05).
 - [ ] Current volumes for Nostr zaps and value-for-value podcasting (area 16). **Help wanted.**
 - [ ] Status of the US de minimis tax exemption (S.2207) since August 2026 (area 12).
