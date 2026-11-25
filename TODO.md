@@ -1,6 +1,6 @@
 # To do
 
-*Open work on this research library. Items marked **help wanted** are good places for others to contribute. Last updated November 20, 2026.*
+*Open work on this research library. Items marked **help wanted** are good places for others to contribute. Last updated November 25, 2026.*
 
 ## Research
 
@@ -55,6 +55,7 @@
 - [ ] Cloudflare's NET Dollar: has it launched, and does the Monetization Gateway use it? Also its Q2 2026 statement that over half of traffic is not human (page 04).
 - [ ] Tando usage: payments to M-Pesa numbers, and how many recipients claim their addresses (area 18). **Help wanted.**
 - [ ] US sweepstakes crackdown and crypto gambling: do players move to offshore crypto casinos, and do any figures beyond Voltage's one-operator pilot show Lightning deposits funded from Cash App (page 05)?
+- [ ] Malawi: a public source on Bitmsika beyond one developer's essay; the Reserve Bank of Malawi's $200-a-month forex limit for individuals and the up-to-150% informal premium, so far from a hackathon entry; and whether Yellow Card's retail closure is what ended its service in Malawi (areas 12, 14, 18).
 
 ## Maintenance
 

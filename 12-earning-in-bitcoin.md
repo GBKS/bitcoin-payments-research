@@ -1,6 +1,6 @@
 # Earning in bitcoin
 
-*Deep dive, first draft. Builds on the November 8 quick scan. Desk research only. Last updated November 14, 2026.*
+*Deep dive, first draft. Builds on the November 8 quick scan. Desk research only. Last updated November 25, 2026.*
 
 ## Thesis
 
@@ -118,6 +118,19 @@ El Salvador made bitcoin legal tender in 2021 and amended the law in January 202
 - **Latin America overall** leans to stablecoins: they were over half of exchange purchases with pesos and reais ([Chainalysis](https://www.chainalysis.com/blog/latin-america-crypto-adoption-2025/), October 2025).
 
 **What it shows:** people *buy* bitcoin to save, and get *paid* in dollars to live. No public source shows a group of market earners choosing bitcoin over stablecoins as income.
+
+### Malawi: earned, but stuck
+
+A Malawian software developer studying in Rwanda describes the earner's problem from the receiving end ([essay](https://www.innocenciacodes.com/blog/building-infrastructure-for-a-financially-disconnected-country), November 2026):
+
+- **Getting paid in.** Money they'd earned sat in PayPal for nearly 2 years. They reached it only after linking a Rwandan bank account.
+- **Paying out.** National Bank of Malawi had a process for paying their tuition directly to the university, but no foreign currency at the time, so the payment couldn't go through.
+- **Opportunities lost.** They turned down a speaking slot at a bitcoin conference because the flight would cost about $1,200 in normal times, and up to five times that given the forex shortage (their estimate). They also say people quietly drop out of programs and contracts "without explaining why."
+- **Workarounds.** They have "relied at times on informal foreign-exchange markets." In a hackathon entry, the same developer says informal dealers sell bitcoin or USDT at up to 150% above the market rate, and that the central bank allows individuals up to $200 a month through formal channels, when forex is available ([KwachaBridge on Devpost](https://devpost.com/software/kwachabridge)). *[builder's account, to verify]*
+
+The shortage is national. In the first half of 2026, 88.2% of businesses named forex scarcity as their biggest challenge, up from 74.1% a year earlier, according to the Malawi Confederation of Chambers of Commerce and Industry's half-year review ([The Nation](https://mwnation.com/forex-crunch-remains-biggest-hurdle-mccci/), July 2026).
+
+**What it shows:** the author is careful about what bitcoin can do here. It isn't forex: it can't add dollars to the country. A client could pay a developer in bitcoin, but turning it into kwacha still needs a local buyer, an agreed rate and liquidity. And a university or supplier that wants dollars still needs dollars. That supports the second key assumption below: conversion, not the payment itself, is the unlock. The local side is covered in [Last-mile infrastructure](18-last-mile-infrastructure.md).
 
 ## Lessons from elsewhere
 
@@ -249,7 +262,7 @@ Following Liz Sanders' framework, weighting what people **do** and **make** over
 
 **El Salvador:** [Decrypt on the law amendment](https://decrypt.co/303626/el-salvador-bitcoin-law-amendment-imf-loan) · [El Heraldo on the IUDOP poll](https://www.elheraldo.hn/mundo/uso-del-bitcoin-salvador-alcanza-nivel-mas-bajo-2024-CF23621470) · [Alvarez, Argente and Van Patten: Bitcoin as legal tender in El Salvador](https://www.davidargente.com/_files/ugd/b05023_7825615207654784864b4c4cc4ec6550.pdf) · [The Block on the household study](https://www.theblock.co/post/144927/everyday-bitcoin-usage-in-el-salvador-remains-low-despite-government-push-us-academic-study-finds) · [Crypto Briefing on El Zonte](https://cryptobriefing.com/bitcoin-usage-declines-in-el-zonte-as-card-payments-rise/) · [El Salvador in English on El Zonte](https://elsalvadorinenglish.com/2025/11/11/el-salvadors-bitcoin-beach-sees-30-sales-growth/)
 
-**Africa and Latin America:** [Chainalysis on Sub-Saharan Africa](https://www.chainalysis.com/blog/subsaharan-africa-crypto-adoption-2025/) · [Chainalysis on Latin America](https://www.chainalysis.com/blog/latin-america-crypto-adoption-2025/) · [Mercado on Bitso's data](https://mercado.com.ar/tendencias/bitso-stablecoins-dominan-compra-y-bitcoin-crece-en-carteras-durante-2025) · [iProfesional on Argentine freelancers](https://www.iprofesional.com/economia/426669-fin-cepo-revelan-que-stablecoins-ganan-terreno-entre-freelancers-empresas)
+**Africa and Latin America:** [Chainalysis on Sub-Saharan Africa](https://www.chainalysis.com/blog/subsaharan-africa-crypto-adoption-2025/) · [Chainalysis on Latin America](https://www.chainalysis.com/blog/latin-america-crypto-adoption-2025/) · [Mercado on Bitso's data](https://mercado.com.ar/tendencias/bitso-stablecoins-dominan-compra-y-bitcoin-crece-en-carteras-durante-2025) · [iProfesional on Argentine freelancers](https://www.iprofesional.com/economia/426669-fin-cepo-revelan-que-stablecoins-ganan-terreno-entre-freelancers-empresas) · [A Malawian developer on financial disconnection](https://www.innocenciacodes.com/blog/building-infrastructure-for-a-financially-disconnected-country) · [KwachaBridge on Devpost](https://devpost.com/software/kwachabridge) · [The Nation on MCCCI's H1 2026 review](https://mwnation.com/forex-crunch-remains-biggest-hurdle-mccci/)
 
 **Payout rails:** [Strike API](https://docs.strike.me/walkthrough/sending-payments/) · [ZBD payouts](https://docs.zbdpay.com/payments/payouts/lightning-address) · [OpenNode payouts](https://opennode.com/payouts/) · [OpenNode LNURL-withdraw](https://developers.opennode.com/docs/generate-lnurl-withdrawal) · [Speed API](https://apidocs.tryspeed.com/reference/create-a-instant-send) · [Voltage Payments](https://voltage.cloud/blog/voltage-payments-on-mainnet-credit-backed-lightning-payments-are-live) · [Lightning Address (LUD-16)](https://github.com/lnurl/luds/blob/luds/16.md) · [BOLT 12](https://github.com/lightning/bolts/blob/master/12-offer-encoding.md) · [BOLT 12 recurrence proposal](https://github.com/lightning/bolts/pull/1240) · [Crypto Briefing on Tempo](https://cryptobriefing.com/tempo-1b-stablecoin-transfer-volume/)
 

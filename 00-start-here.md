@@ -1,6 +1,6 @@
 # Start here: where demand for bitcoin payments could come from
 
-*A research notebook. Last updated November 20, 2026.*
+*A research notebook. Last updated November 25, 2026.*
 
 Bitcoin payment technology works better than ever, yet few people pay with bitcoin. That gap was hard to miss at conferences throughout 2026. This library asks where demand could actually come from: which people, needs and situations self-custodial bitcoin payments could serve better than anything else.
 
@@ -58,6 +58,7 @@ The list will change as research reveals new areas or merges existing ones.
 
 ## Log
 
+- **November 25, 2026:** added Malawi's dollar shortage, from a Malawian developer's essay and hackathon entry: earnings stuck abroad and lost opportunities (Earning in bitcoin), the local bridge still being built (Last-mile infrastructure), and informal bitcoin and USDT dealers (Dollars and bitcoin). Noted Yellow Card's retail closure as another off-ramp lost (Last-mile infrastructure).
 - **November 20, 2026:** added Block's first report on bitcoin payments at US Square sellers (November 2026) to Where bitcoin is paid today, with notes in Landscape, Dollars and bitcoin, Last-mile infrastructure and two of the lessons above. Corrected Square's zero-fee period, now extended through 2027 (Landscape).
 - **November 19, 2026:** new foundation page, first draft: what happened to bitcoin tipping and gifting. Updated the lost uses in Where bitcoin is paid today (Twitter Tips, ZBD, Lightsats, Podcasting 2.0) and the bitcoin case and claim rates in Payments that feel different.
 - **November 14, 2026:** checked the Deel bitcoin figure against Deel's own H1 2022 report, after a contributor's comment on [issue 22](https://github.com/GBKS/bitcoin-payments-research/issues/22). The 47% is bitcoin's share of crypto withdrawals on Deel's platform, not of workers, and it is platform data, not a survey (Earning in bitcoin).
